@@ -8,8 +8,6 @@
 <meta name="robots" content="index, follow">
 <meta name="author" content="LADELA.ID">
 <link rel="canonical" href="https://ladela.id/">
-
-<!-- Open Graph -->
 <meta property="og:type" content="website">
 <meta property="og:locale" content="id_ID">
 <meta property="og:site_name" content="LADELA.ID">
@@ -17,21 +15,15 @@
 <meta property="og:description" content="Gamis, tunik & outer linen premium. Harga langsung dari brand, lebih hemat dari marketplace. Ukuran S–XXL, kirim seluruh Indonesia.">
 <meta property="og:url" content="https://ladela.id/">
 <meta property="og:image" content="https://ladela.id/og-image.jpg">
-
-<!-- Twitter -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="LADELA.ID — Modest Wear Earthy Tone Original">
 <meta name="twitter:description" content="Gamis, tunik & outer linen premium. Harga langsung dari brand, lebih hemat dari marketplace.">
 <meta name="twitter:image" content="https://ladela.id/og-image.jpg">
-
 <meta name="theme-color" content="#3D2318">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%233D2318'/%3E%3Ctext x='50' y='68' font-size='56' fill='%23C9B99A' text-anchor='middle' font-family='Georgia,serif'%3EL%3C/text%3E%3C/svg%3E">
-
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
-
-<!-- Structured data: Organization / ClothingStore -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -52,8 +44,6 @@
   }
 }
 </script>
-
-<!-- Structured data: Products -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -67,8 +57,6 @@
   ]
 }
 </script>
-
-<!-- Structured data: FAQ -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -83,104 +71,62 @@
   ]
 }
 </script>
-
 <style>
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
   :root {
     --sand: #F2EDE4; --tan: #C9B99A; --tan-light: #DDD0BB; --tan-hover: #E8DECE;
     --clay: #A0826A; --mocha: #7A5C4A; --esp: #3D2318;
     --cream: #FAF7F2; --ivory: #EDE7DC;
-    --px: 20px;
-    --wrap: 1180px;
-    --wrap-narrow: 640px;
-    --wrap-faq: 760px;
-    --radius: 2px;
+    --px: 20px; --wrap: 1180px; --wrap-narrow: 640px; --wrap-faq: 760px; --radius: 2px;
   }
   @media (min-width: 601px) { :root { --px: 40px; } }
   @media (min-width: 1024px) { :root { --px: 56px; } }
-
   html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
   @media (prefers-reduced-motion: reduce) {
     html { scroll-behavior: auto; }
     *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
   }
-  body {
-    background: var(--cream);
-    color: var(--esp);
-    font-family: 'DM Sans', sans-serif;
-    font-weight: 300;
-    min-height: 100vh;
-    overflow-x: hidden;
-  }
+  body { background: var(--cream); color: var(--esp); font-family: 'DM Sans', sans-serif; font-weight: 300; min-height: 100vh; overflow-x: hidden; }
   .ld-page { min-height: 100vh; }
   img, svg { max-width: 100%; display: block; }
   a { color: inherit; }
   .wrap { max-width: var(--wrap); margin: 0 auto; padding: 0 var(--px); }
   .wrap-narrow { max-width: var(--wrap-narrow); margin: 0 auto; padding: 0 var(--px); }
   .wrap-faq { max-width: var(--wrap-faq); margin: 0 auto; padding: 0 var(--px); }
-
   .skip-link { position: absolute; left: -999px; top: 0; background: var(--esp); color: var(--cream); padding: 10px 18px; font-size: 12px; z-index: 999; }
   .skip-link:focus { left: 10px; top: 10px; }
-
-  a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visible, summary:focus-visible {
-    outline: 2px solid var(--clay); outline-offset: 2px;
-  }
-
-  /* ============ REVEAL ANIMATIONS ============ */
+  a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visible, summary:focus-visible { outline: 2px solid var(--clay); outline-offset: 2px; }
   .reveal { opacity: 0; transform: translateY(18px); transition: opacity .6s ease, transform .6s ease; }
   .reveal.visible { opacity: 1; transform: none; }
   .reveal-stagger.visible { transition-delay: calc(var(--i, 0) * 80ms); }
 
   /* ============ NAV ============ */
-  .ld-nav {
-    position: sticky; top: 0; z-index: 200;
-    background: rgba(250,247,242,.9); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);
-    border-bottom: 0.5px solid rgba(61,35,24,.08);
-    transition: box-shadow .25s ease, background .25s ease;
-  }
+  .ld-nav { position: sticky; top: 0; z-index: 200; background: rgba(250,247,242,.9); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); border-bottom: 0.5px solid rgba(61,35,24,.08); transition: box-shadow .25s ease, background .25s ease; }
   .ld-nav.scrolled { box-shadow: 0 4px 24px rgba(61,35,24,.08); }
   .ld-nav-inner { display: flex; align-items: center; justify-content: space-between; padding: 16px var(--px); }
   .ld-logo { font-family: 'Cormorant Garamond', serif; font-size: 20px; letter-spacing: 2px; font-weight: 500; color: var(--esp); text-decoration: none; }
   .ld-logo em { font-style: italic; color: var(--clay); }
   .ld-nav-links { display: none; align-items: center; gap: 30px; }
   .ld-nav-links a:not(.ld-nav-cta) { font-size: 12px; letter-spacing: .5px; text-decoration: none; color: var(--mocha); transition: color .2s; position: relative; padding: 6px 1px; }
-  .ld-nav-links a:not(.ld-nav-cta)::before {
-    content: ''; position: absolute; left: 50%; bottom: 0; width: 3px; height: 3px; border-radius: 50%;
-    background: var(--clay); opacity: 0; transform: translate(-50%, 4px); transition: opacity .2s ease, transform .2s ease;
-  }
-  .ld-nav-links a:not(.ld-nav-cta)::after {
-    content: ''; position: absolute; left: 0; bottom: 0; width: 100%; height: 1px;
-    background: var(--esp); transform: scaleX(0); transform-origin: center; transition: transform .28s cubic-bezier(.4,0,.2,1);
-  }
+  .ld-nav-links a:not(.ld-nav-cta)::before { content: ''; position: absolute; left: 50%; bottom: 0; width: 3px; height: 3px; border-radius: 50%; background: var(--clay); opacity: 0; transform: translate(-50%, 4px); transition: opacity .2s ease, transform .2s ease; }
+  .ld-nav-links a:not(.ld-nav-cta)::after { content: ''; position: absolute; left: 0; bottom: 0; width: 100%; height: 1px; background: var(--esp); transform: scaleX(0); transform-origin: center; transition: transform .28s cubic-bezier(.4,0,.2,1); }
   .ld-nav-links a:not(.ld-nav-cta):hover { color: var(--esp); }
   .ld-nav-links a:not(.ld-nav-cta):hover::after { transform: scaleX(1); }
   .ld-nav-links a:not(.ld-nav-cta):hover::before { opacity: 1; transform: translate(-50%, 7px); }
-  .ld-nav-cta {
-    display: inline-flex; align-items: center; gap: 7px;
-    font-size: 11px; letter-spacing: 1.5px; text-transform: uppercase; font-weight: 500;
-    background: var(--esp); color: var(--cream) !important; padding: 10px 20px; text-decoration: none;
-    transition: background .2s, transform .15s, box-shadow .2s; position: relative;
-  }
+  .ld-nav-cta { display: inline-flex; align-items: center; gap: 7px; font-size: 11px; letter-spacing: 1.5px; text-transform: uppercase; font-weight: 500; background: var(--esp); color: var(--cream) !important; padding: 10px 20px; text-decoration: none; transition: background .2s, transform .15s, box-shadow .2s; position: relative; }
   .ld-nav-cta svg { width: 12px; height: 12px; stroke: var(--tan); fill: none; stroke-width: 1.8; flex-shrink: 0; }
   .ld-nav-cta:hover { background: var(--mocha); transform: translateY(-1px); box-shadow: 0 6px 16px rgba(61,35,24,.25); }
   .ld-nav-cta .ld-dot-live { width: 5px; height: 5px; border-radius: 50%; background: #7fae7a; flex-shrink: 0; position: relative; }
   .ld-nav-cta .ld-dot-live::after { content:''; position:absolute; inset:-3px; border-radius:50%; border:1px solid #7fae7a; opacity:.7; animation: pingDot 1.8s ease-out infinite; }
   @keyframes pingDot { 0% { transform: scale(.6); opacity: .8; } 100% { transform: scale(1.8); opacity: 0; } }
   @media (min-width: 860px) { .ld-nav-links { display: flex; } }
-
   .ld-burger { display: flex; flex-direction: column; justify-content: center; gap: 5px; width: 32px; height: 32px; background: none; border: none; cursor: pointer; }
   .ld-burger span { display: block; height: 1.5px; width: 100%; background: var(--esp); transition: transform .25s, opacity .25s; }
   .ld-burger.open span:nth-child(1) { transform: translateY(6.5px) rotate(45deg); }
   .ld-burger.open span:nth-child(2) { opacity: 0; }
   .ld-burger.open span:nth-child(3) { transform: translateY(-6.5px) rotate(-45deg); }
   @media (min-width: 860px) { .ld-burger { display: none; } }
-
-  .ld-mobile-menu {
-    position: fixed; inset: 0; z-index: 190; background: var(--esp);
-    display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 28px;
-    opacity: 0; visibility: hidden; transform: translateY(-8px);
-    transition: opacity .3s ease, transform .3s ease, visibility 0s linear .3s;
-  }
+  .ld-mobile-menu { position: fixed; inset: 0; z-index: 190; background: var(--esp); display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 28px; opacity: 0; visibility: hidden; transform: translateY(-8px); transition: opacity .3s ease, transform .3s ease, visibility 0s linear .3s; }
   .ld-mobile-menu.open { opacity: 1; visibility: visible; transform: none; transition: opacity .3s ease, transform .3s ease; }
   .ld-mobile-menu a { font-family: 'Cormorant Garamond', serif; font-size: 30px; color: var(--cream); text-decoration: none; }
   .ld-mobile-menu .ld-nav-cta { margin-top: 10px; }
@@ -188,72 +134,34 @@
 
   /* ============ HERO ============ */
   .ld-hero { background: var(--esp); color: var(--cream); padding: 56px 0 60px; position: relative; overflow: hidden; isolation: isolate; }
-
-  /* Background layer — stack order (top wins): 1) your photo via --hero-bg-image
-     2) warm earthy gradient placeholder, shown automatically until a photo is set.
-     TO ADD YOUR PHOTO: put style="--hero-bg-image:url('your-photo.jpg')" on the
-     .ld-hero-bg element below — nothing else needs to change. */
   .ld-hero-bg {
-    position: absolute; inset: 0; z-index: 0;
-    background-color: var(--esp);
+    position: absolute; inset: 0; z-index: 0; background-color: var(--esp);
     background-image: var(--hero-bg-image, none),
       radial-gradient(ellipse 60% 50% at 80% 12%, rgba(201,185,154,.18), transparent 60%),
       radial-gradient(ellipse 55% 60% at 10% 90%, rgba(122,92,74,.4), transparent 65%),
       linear-gradient(160deg, #4a2c1c 0%, #3D2318 45%, #2a1810 100%);
-    background-size: cover, cover, cover, cover;
-    background-position: center 30%, center, center, center;
-    background-repeat: no-repeat;
-    transform: scale(1.04);
-    animation: heroGlow 18s ease-in-out infinite;
+    background-size: cover, cover, cover, cover; background-position: center 30%, center, center, center; background-repeat: no-repeat;
+    transform: scale(1.04); animation: heroGlow 18s ease-in-out infinite;
   }
-  /* fine woven-linen texture — sits above the photo/placeholder for a fabric feel */
-  .ld-hero-bg::after {
-    content: '';
-    position: absolute; inset: 0;
-    opacity: .5; mix-blend-mode: overlay;
-    background-image:
-      repeating-linear-gradient(90deg, rgba(255,255,255,.05) 0px, rgba(255,255,255,.05) 1px, transparent 1px, transparent 4px),
-      repeating-linear-gradient(0deg, rgba(0,0,0,.12) 0px, rgba(0,0,0,.12) 1px, transparent 1px, transparent 4px);
-  }
-  /* dark gradient so headline/CTAs stay readable over any photo you add — heavier on the
-     left/bottom where the text sits, lighter over the visual on the right */
-  .ld-hero-overlay {
-    position: absolute; inset: 0; z-index: 1;
-    background:
-      linear-gradient(100deg, rgba(8,5,3,.92) 0%, rgba(8,5,3,.8) 30%, rgba(8,5,3,.46) 54%, rgba(8,5,3,.16) 72%, transparent 88%),
-      linear-gradient(180deg, rgba(14,8,5,.18) 0%, rgba(14,8,5,.3) 45%, rgba(14,8,5,.78) 100%);
-  }
+  @keyframes heroGlow { 0%,100% { filter: brightness(1) saturate(1); } 50% { filter: brightness(1.05) saturate(1.08); } }
+  .ld-hero-bg::after { content: ''; position: absolute; inset: 0; opacity: .5; mix-blend-mode: overlay; background-image: repeating-linear-gradient(90deg, rgba(255,255,255,.05) 0px, rgba(255,255,255,.05) 1px, transparent 1px, transparent 4px), repeating-linear-gradient(0deg, rgba(0,0,0,.12) 0px, rgba(0,0,0,.12) 1px, transparent 1px, transparent 4px); }
+  .ld-hero-overlay { position: absolute; inset: 0; z-index: 1; background: linear-gradient(100deg, rgba(8,5,3,.92) 0%, rgba(8,5,3,.8) 30%, rgba(8,5,3,.46) 54%, rgba(8,5,3,.16) 72%, transparent 88%), linear-gradient(180deg, rgba(14,8,5,.18) 0%, rgba(14,8,5,.3) 45%, rgba(14,8,5,.78) 100%); }
   .ld-hero-grid { display: grid; grid-template-columns: 1fr; gap: 44px; align-items: center; position: relative; z-index: 2; }
   @media (min-width: 960px) { .ld-hero-grid { grid-template-columns: 1.05fr .95fr; gap: 60px; } }
   .ld-eyebrow { display: flex; align-items: center; gap: 10px; font-size: 9px; font-weight: 500; letter-spacing: 3px; text-transform: uppercase; color: var(--tan); margin-bottom: 16px; }
-
   @media (max-width: 640px) {
-    .ld-hero { padding: 32px 0 44px; }
-    .ld-hero-grid { gap: 28px; }
-    .ld-hero-text { display: grid; gap: 18px; }
+    .ld-hero { padding: 32px 0 44px; } .ld-hero-grid { gap: 28px; } .ld-hero-text { display: grid; gap: 18px; }
     .ld-hero-bg { transform: none; background-position: center 26%; }
-    .ld-hero-overlay {
-      background:
-        linear-gradient(180deg, rgba(8,5,3,.96) 0%, rgba(8,5,3,.82) 28%, rgba(8,5,3,.54) 52%, rgba(8,5,3,.24) 78%, transparent 100%),
-        linear-gradient(180deg, rgba(14,8,5,.16) 0%, rgba(14,8,5,.34) 40%, rgba(14,8,5,.7) 100%);
-    }
-    .ld-hero-sub { max-width: 100%; }
-    .ld-hero-ctas { gap: 10px; }
-    .ld-hero-ctas a { width: 100%; justify-content: center; }
-    .ld-hero-visual { height: 240px; margin-top: -8px; }
-    .ld-hero-visual .ld-hv-circle { display: none; }
-    .ld-hero-visual .ld-hv-garment { width: 120px; }
-    .ld-hero-visual .ld-hv-badge { display: none; }
+    .ld-hero-overlay { background: linear-gradient(180deg, rgba(8,5,3,.96) 0%, rgba(8,5,3,.82) 28%, rgba(8,5,3,.54) 52%, rgba(8,5,3,.24) 78%, transparent 100%), linear-gradient(180deg, rgba(14,8,5,.16) 0%, rgba(14,8,5,.34) 40%, rgba(14,8,5,.7) 100%); }
+    .ld-hero-sub { max-width: 100%; } .ld-hero-ctas { gap: 10px; } .ld-hero-ctas a { width: 100%; justify-content: center; }
+    .ld-hero-visual { height: 240px; margin-top: -8px; } .ld-hero-visual .ld-hv-circle { display: none; } .ld-hero-visual .ld-hv-garment { width: 120px; } .ld-hero-visual .ld-hv-badge { display: none; }
   }
   .ld-eyebrow::before { content: ''; display: block; width: 22px; height: 1px; background: var(--tan); }
   .ld-title { font-family: 'Cormorant Garamond', serif; font-size: clamp(38px, 6vw, 62px); font-weight: 300; line-height: 1.05; margin-bottom: 16px; color: var(--cream); text-shadow: 0 2px 24px rgba(0,0,0,.5), 0 1px 2px rgba(0,0,0,.4); }
   .ld-title em { font-style: italic; color: var(--tan); }
   .ld-hero-sub { font-size: 14px; color: #dcd0c4; line-height: 1.7; max-width: 420px; margin-bottom: 26px; text-shadow: 0 1px 12px rgba(0,0,0,.45); }
   .ld-hero-ctas { display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 26px; }
-  .ld-btn-primary, .ld-btn-outline {
-    display: inline-flex; align-items: center; gap: 8px; font-size: 11px; letter-spacing: 2px; text-transform: uppercase;
-    font-weight: 500; text-decoration: none; padding: 14px 24px; transition: all .2s;
-  }
+  .ld-btn-primary, .ld-btn-outline { display: inline-flex; align-items: center; gap: 8px; font-size: 11px; letter-spacing: 2px; text-transform: uppercase; font-weight: 500; text-decoration: none; padding: 14px 24px; transition: all .2s; }
   .ld-btn-primary { background: var(--tan-hover); color: var(--esp); }
   .ld-btn-primary:hover { background: var(--tan-light); transform: translateY(-2px); box-shadow: 0 8px 20px rgba(0,0,0,.2); }
   .ld-btn-outline { border: 1px solid rgba(250,247,242,.35); color: var(--cream); }
@@ -261,7 +169,6 @@
   .ld-trust-line { display: flex; flex-wrap: wrap; gap: 8px 18px; font-size: 11px; color: #c9bcae; text-shadow: 0 1px 8px rgba(0,0,0,.45); }
   .ld-trust-line span { display: flex; align-items: center; gap: 6px; }
   .ld-trust-line svg { width: 12px; height: 12px; stroke: var(--tan); fill: none; stroke-width: 2.5; flex-shrink: 0; }
-
   .ld-hero-visual { position: relative; height: 340px; display: flex; align-items: center; justify-content: center; }
   .ld-hv-circle { position: absolute; border-radius: 50%; }
   .ld-hv-c1 { width: 300px; height: 300px; background: radial-gradient(circle at 35% 30%, var(--mocha), transparent 70%); opacity: .5; animation: floaty 7s ease-in-out infinite; }
@@ -269,21 +176,11 @@
   .ld-hv-c3 { width: 130px; height: 130px; background: var(--tan); opacity: .18; top: 20%; left: 8%; animation: floaty 6s ease-in-out infinite; }
   .ld-hv-garment { position: relative; width: 150px; animation: floaty 8s ease-in-out infinite; }
   .ld-hv-garment svg { stroke: var(--tan); fill: none; stroke-width: 1.2; }
-  .ld-hv-badge {
-    position: absolute; top: 6%; right: 4%; border: 1px dashed rgba(201,185,154,.5);
-    padding: 10px 14px; font-size: 9px; letter-spacing: 2px; text-transform: uppercase; color: var(--tan);
-    transform: rotate(4deg); background: rgba(61,35,24,.4); backdrop-filter: blur(3px);
-  }
+  .ld-hv-badge { position: absolute; top: 6%; right: 4%; border: 1px dashed rgba(201,185,154,.5); padding: 10px 14px; font-size: 9px; letter-spacing: 2px; text-transform: uppercase; color: var(--tan); transform: rotate(4deg); background: rgba(61,35,24,.4); backdrop-filter: blur(3px); }
   @keyframes floaty { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-14px); } }
-
-  /* running-stitch motif — a needle "sewing" a dashed seam around the garment */
   .ld-stitch-wrap { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; pointer-events: none; }
   .ld-stitch-wrap svg { width: 230px; height: 290px; overflow: visible; }
-  .ld-stitch-line {
-    fill: none; stroke: var(--tan); stroke-width: 1.1; stroke-linecap: round;
-    stroke-dasharray: 5 6; opacity: .55;
-    animation: stitchRun 2.4s linear infinite;
-  }
+  .ld-stitch-line { fill: none; stroke: var(--tan); stroke-width: 1.1; stroke-linecap: round; stroke-dasharray: 5 6; opacity: .55; animation: stitchRun 2.4s linear infinite; }
   .ld-stitch-needle { fill: var(--tan); opacity: .95; filter: drop-shadow(0 0 3px rgba(201,185,154,.6)); }
   @keyframes stitchRun { to { stroke-dashoffset: -220; } }
 
@@ -293,15 +190,10 @@
   .ld-price-hook-icon { font-size: 15px; flex-shrink: 0; margin-top: 1px; }
   .ld-price-hook-text { font-size: 12px; color: var(--cream); line-height: 1.6; }
   .ld-price-hook-text strong { font-weight: 500; color: var(--tan); }
-
   .ld-strip { background: var(--tan); padding: 9px var(--px); display: flex; gap: 20px; overflow-x: auto; white-space: nowrap; -webkit-overflow-scrolling: touch; animation: stripFloat 12s linear infinite; }
   .ld-strip::-webkit-scrollbar { display: none; }
   .ld-strip span { font-size: 9px; letter-spacing: 2px; text-transform: uppercase; color: var(--esp); font-weight: 500; flex-shrink: 0; animation: stripPulse 5s ease-in-out infinite; }
-  .ld-strip span:nth-child(2) { animation-delay: .2s; }
-  .ld-strip span:nth-child(3) { animation-delay: .4s; }
-  .ld-strip span:nth-child(4) { animation-delay: .6s; }
-  .ld-strip span:nth-child(5) { animation-delay: .8s; }
-  .ld-strip span:nth-child(6) { animation-delay: 1s; }
+  .ld-strip span:nth-child(2) { animation-delay: .2s; } .ld-strip span:nth-child(3) { animation-delay: .4s; } .ld-strip span:nth-child(4) { animation-delay: .6s; } .ld-strip span:nth-child(5) { animation-delay: .8s; } .ld-strip span:nth-child(6) { animation-delay: 1s; }
 
   /* ============ SECTION SHELL ============ */
   .ld-section { padding: 56px 0; background: var(--cream); }
@@ -325,10 +217,6 @@
   .ld-usp-icon { width: 24px; height: 24px; stroke: var(--esp); fill: none; stroke-width: 1.5; position: relative; z-index: 1; }
   .ld-usp-title { font-family: 'Cormorant Garamond', serif; font-size: 19px; font-weight: 500; margin-bottom: 8px; position: relative; z-index: 1; }
   .ld-usp-desc { font-size: 12px; color: #8a7060; line-height: 1.6; position: relative; z-index: 1; }
-
-  /* ---- reusable corner-stitch mark: a small cross that fades in on hover, echoing
-     the running-stitch needle in the hero. Add <span class="ld-corner"></span> to any
-     position:relative container to use it. ---- */
   .ld-corner { position: absolute; top: 12px; right: 12px; width: 13px; height: 13px; opacity: 0; transform: rotate(-90deg) scale(.55); transition: opacity .3s ease, transform .3s ease; pointer-events: none; z-index: 2; }
   .ld-corner::before, .ld-corner::after { content: ''; position: absolute; background: var(--clay); }
   .ld-corner::before { top: 50%; left: 0; width: 100%; height: 1px; transform: translateY(-50%); }
@@ -341,17 +229,11 @@
   @media (min-width: 540px) { .ld-products { grid-template-columns: repeat(2, 1fr); gap: 14px; } }
   @media (min-width: 820px) { .ld-products { grid-template-columns: repeat(3, 1fr); gap: 16px; } }
   @media (min-width: 1024px) { .ld-products { grid-template-columns: repeat(4, 1fr); gap: 20px; } }
-
   .ld-card { background: var(--cream); padding: 0 0 14px; cursor: pointer; border: 1.5px solid transparent; transition: border-color .2s, box-shadow .2s, transform .15s; position: relative; -webkit-tap-highlight-color: transparent; border-radius: 14px; overflow: hidden; }
   .ld-card:hover { border-color: var(--tan); box-shadow: 0 4px 16px rgba(61,35,24,.1); transform: translateY(-2px); }
   .ld-card.selected { border-color: var(--esp); box-shadow: 0 6px 24px rgba(61,35,24,.15); }
-  @media (max-width: 640px) {
-    .ld-card:hover { transform: none; box-shadow: 0 10px 24px rgba(61,35,24,.08); }
-    .ld-card-info { padding: 14px 14px 12px; }
-    .ld-swatches { gap: 6px; }
-  }
+  @media (max-width: 640px) { .ld-card:hover { transform: none; box-shadow: 0 10px 24px rgba(61,35,24,.08); } .ld-card-info { padding: 14px 14px 12px; } .ld-swatches { gap: 6px; } }
   .ld-card.selected .ld-card-badge { background: var(--esp); color: var(--cream); }
-
   .ld-thumb { width: 100%; aspect-ratio: 3/4; position: relative; overflow: hidden; background: var(--sand); }
   .ld-slides { display: flex; width: 100%; height: 100%; transition: transform .4s cubic-bezier(.4,0,.2,1); }
   .ld-slide img { object-position: center top; }
@@ -361,35 +243,25 @@
   .ld-card:hover .ld-slide img, .ld-card:hover .ld-slide svg { transform: scale(1.07); }
   .ld-thumb::after { content: ''; position: absolute; inset: 0; background: linear-gradient(180deg, transparent 60%, rgba(61,35,24,.22) 100%); opacity: 0; transition: opacity .25s ease; pointer-events: none; z-index: 1; }
   .ld-card:hover .ld-thumb::after { opacity: 1; }
-
   .ld-dots { position: absolute; bottom: 7px; left: 0; right: 0; display: flex; justify-content: center; gap: 5px; z-index: 2; }
   .ld-dot { width: 5px; height: 5px; border-radius: 50%; background: rgba(255,255,255,.5); border: 0.5px solid rgba(0,0,0,.15); transition: background .2s, transform .2s; cursor: pointer; }
   .ld-dot.active { background: var(--cream); transform: scale(1.3); }
-
   .ld-arrow { position: absolute; top: 50%; transform: translateY(-50%); width: 26px; height: 26px; background: rgba(250,247,242,.85); border: none; cursor: pointer; display: flex; align-items: center; justify-content: center; opacity: 0; transition: opacity .2s; z-index: 3; backdrop-filter: blur(4px); }
   .ld-arrow-l { left: 6px; } .ld-arrow-r { right: 6px; }
   @media (max-width: 640px) { .ld-arrow { opacity: 1; background: rgba(250,247,242,.95); } }
   .ld-arrow svg { width: 10px; height: 10px; stroke: var(--esp); fill: none; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
   .ld-card:hover .ld-arrow { opacity: 1; }
   .ld-arrow:hover { background: rgba(250,247,242,1); }
-
   .ld-card-badge { position: absolute; top: 8px; left: 8px; font-size: 8px; letter-spacing: 1.5px; text-transform: uppercase; background: var(--tan); color: var(--esp); padding: 3px 7px; font-weight: 500; transition: background .2s, color .2s; z-index: 2; }
   .ld-check { position: absolute; top: 8px; right: 8px; width: 18px; height: 18px; background: var(--esp); border-radius: 50%; display: none; align-items: center; justify-content: center; z-index: 2; }
   .ld-card.selected .ld-check { display: flex; }
   .ld-check svg { width: 10px; height: 10px; stroke: var(--cream); fill: none; }
-
   .ld-card-info { padding: 12px 12px 0; }
   .ld-card-name { font-family: 'Cormorant Garamond', serif; font-size: clamp(15px, 3vw, 18px); font-weight: 400; margin-bottom: 3px; }
   .ld-card-color { font-size: 9px; color: #8a7060; letter-spacing: 1px; text-transform: uppercase; margin-bottom: 7px; font-weight: 500; }
   .ld-card-color b { color: var(--clay); font-weight: 500; }
-
   .ld-swatches { display: flex; align-items: center; gap: 8px; margin-bottom: 10px; }
-  .ld-swatch {
-    width: 19px; height: 19px; border-radius: 50%; border: none; padding: 0; cursor: pointer;
-    position: relative; box-shadow: inset 0 0 0 1px rgba(61,35,24,.18);
-    transition: transform .18s cubic-bezier(.4,0,.2,1), box-shadow .18s ease;
-    -webkit-tap-highlight-color: transparent; flex-shrink: 0;
-  }
+  .ld-swatch { width: 19px; height: 19px; border-radius: 50%; border: none; padding: 0; cursor: pointer; position: relative; box-shadow: inset 0 0 0 1px rgba(61,35,24,.18); transition: transform .18s cubic-bezier(.4,0,.2,1), box-shadow .18s ease; -webkit-tap-highlight-color: transparent; flex-shrink: 0; }
   .ld-swatch:hover { transform: scale(1.22) translateY(-1px); }
   .ld-swatch.active { box-shadow: inset 0 0 0 1px rgba(61,35,24,.18), 0 0 0 2px var(--cream), 0 0 0 3.5px var(--esp); }
   .ld-swatch-more { font-size: 9px; color: var(--clay); letter-spacing: .5px; }
@@ -399,29 +271,13 @@
   .ld-card-rating svg { width: 10px; height: 10px; fill: var(--clay); }
   .ld-card-desc { font-size: 10px; color: #8a7060; line-height: 1.5; margin-top: 3px; }
   .ld-products-note { text-align: center; font-size: 11px; color: var(--clay); margin-top: 22px; }
+  @keyframes stripPulse { 0%,100% { transform: translateY(0); opacity: 1; } 50% { transform: translateY(-2px); opacity: .85; } }
+  @keyframes stripFloat { 0% { transform: translateX(0); } 100% { transform: translateX(-20px); } }
+  @media (max-width: 640px) { .ld-thumb { aspect-ratio: 4/5; } .ld-card-info { padding: 12px 12px 14px; } .ld-card-name { font-size: 15px; } .ld-card-price { font-size: 10.5px; } .ld-card-desc { font-size: 9.5px; } }
 
-  @keyframes stripPulse {
-    0%,100% { transform: translateY(0); opacity: 1; }
-    50% { transform: translateY(-2px); opacity: .85; }
-  }
-
-  @keyframes stripFloat {
-    0% { transform: translateX(0); }
-    100% { transform: translateX(-20px); }
-  }
-
-  @media (max-width: 640px) {
-    .ld-thumb { aspect-ratio: 4/5; }
-    .ld-card-info { padding: 12px 12px 14px; }
-    .ld-card-name { font-size: 15px; }
-    .ld-card-price { font-size: 10.5px; }
-    .ld-card-desc { font-size: 9.5px; }
-  }
-
-  /* ============ ORDER FLOW (configurator / form / summary) ============ */
+  /* ============ ORDER FLOW ============ */
   .ld-cfg, .ld-form-section, .ld-order-panel { opacity: 0; transform: translateY(14px); transition: opacity .45s ease, transform .45s ease; }
   .ld-cfg.in, .ld-form-section.in, .ld-order-panel.in { opacity: 1; transform: none; }
-
   .ld-cfg { background: var(--sand); padding: 34px 0; display: none; border-radius: 22px; box-shadow: 0 20px 40px rgba(61,35,24,.08); }
   .ld-cfg-title { font-family: 'Cormorant Garamond', serif; font-size: 20px; margin-bottom: 18px; }
   .ld-cfg-title span { color: var(--clay); font-style: italic; }
@@ -432,11 +288,13 @@
   .ld-size { border: 1px solid rgba(122,92,74,.2); font-size: 12px; color: var(--esp); padding: 10px 16px; cursor: pointer; transition: background .18s, color .18s, border-color .18s; font-family: 'DM Sans', sans-serif; background: var(--cream); -webkit-tap-highlight-color: transparent; min-height: 42px; border-radius: 12px; }
   .ld-size:hover { background: var(--tan-hover); }
   .ld-size.active { background: var(--esp); color: var(--cream); border-color: var(--esp); }
+  .ld-size-help { width: 100%; font-size: 11px; color: var(--clay); display: flex; align-items: center; gap: 6px; margin-top: 4px; }
+  .ld-size-help a { color: var(--esp); font-weight: 500; text-decoration: underline; text-underline-offset: 2px; }
+  .ld-size-help svg { width: 12px; height: 12px; stroke: var(--clay); fill: none; stroke-width: 1.6; flex-shrink: 0; }
   .ld-qty { display: inline-flex; align-items: center; gap: 8px; background: var(--cream); padding: 6px; border: 1px solid rgba(122,92,74,.2); border-radius: 14px; }
   .ld-qty-btn { border: none; background: transparent; color: var(--esp); width: 38px; height: 38px; font-size: 18px; cursor: pointer; display: flex; align-items: center; justify-content: center; font-weight: 500; font-family: 'DM Sans', sans-serif; -webkit-tap-highlight-color: transparent; border-radius: 10px; }
   .ld-qty-btn:hover { background: rgba(201,185,154,.2); }
   .ld-qty-num { min-width: 44px; height: 38px; display: flex; align-items: center; justify-content: center; font-size: 14px; font-weight: 500; color: var(--esp); }
-
   .ld-form-section { background: var(--ivory); padding: 34px 0; display: none; border-radius: 22px; box-shadow: 0 20px 40px rgba(61,35,24,.06); }
   .ld-form-section .wrap-narrow { padding: 0; }
   .ld-form-group { margin-bottom: 18px; }
@@ -449,10 +307,8 @@
   textarea.ld-input { resize: none; min-height: 112px; }
   .ld-err { font-size: 10px; color: #c0503a; margin-top: 7px; display: none; }
   .ld-err.show { display: block; }
-
   .ld-order-flow-grid { display: grid; gap: 24px; }
   @media (min-width: 900px) { .ld-order-flow-grid { grid-template-columns: 1.35fr .85fr; align-items: start; } }
-
   .ld-order-panel { background: transparent; padding: 0; display: none; }
   .ld-order-panel .wrap-narrow { background: var(--esp); padding: 28px 24px; border-radius: 22px; box-shadow: 0 20px 40px rgba(61,35,24,.14); }
   .ld-savings { background: rgba(201,185,154,.14); border-left: 3px solid var(--tan); padding: 16px 18px; margin-bottom: 20px; font-size: 13px; color: var(--tan); line-height: 1.75; border-radius: 18px; }
@@ -463,15 +319,7 @@
   .ld-sum-lbl { font-size: 11px; color: rgba(255,255,255,.75); letter-spacing: .6px; }
   .ld-sum-val { font-size: 12px; color: var(--cream); font-weight: 500; }
   .ld-sum-total { font-family: 'Cormorant Garamond', serif; font-size: 26px; color: var(--cream); }
-
-  .ld-wa-btn {
-    display: flex; align-items: center; justify-content: center; gap: 12px; width: 100%; max-width: 100%; margin: 0 auto;
-    border: none; cursor: pointer; text-decoration: none; padding: 16px 0; min-height: 56px;
-    font-family: 'DM Sans', sans-serif; font-size: 13px; font-weight: 600; letter-spacing: 2px; text-transform: uppercase;
-    color: var(--esp); background: var(--tan-hover); position: relative; overflow: hidden;
-    border-radius: 16px; transition: background .25s, letter-spacing .25s, box-shadow .25s, transform .15s;
-    -webkit-tap-highlight-color: transparent;
-  }
+  .ld-wa-btn { display: flex; align-items: center; justify-content: center; gap: 12px; width: 100%; max-width: 100%; margin: 0 auto; border: none; cursor: pointer; text-decoration: none; padding: 16px 0; min-height: 56px; font-family: 'DM Sans', sans-serif; font-size: 13px; font-weight: 600; letter-spacing: 2px; text-transform: uppercase; color: var(--esp); background: var(--tan-hover); position: relative; overflow: hidden; border-radius: 16px; transition: background .25s, letter-spacing .25s, box-shadow .25s, transform .15s; -webkit-tap-highlight-color: transparent; }
   .ld-wa-btn::before { content: ''; position: absolute; inset: 0; background: linear-gradient(110deg, transparent 30%, rgba(255,255,255,.35) 50%, transparent 70%); transform: translateX(-100%); transition: transform 0s; }
   .ld-wa-btn:hover { background: var(--tan-light); letter-spacing: 2.5px; box-shadow: 0 8px 26px rgba(61,35,24,.18); transform: translateY(-1px); }
   .ld-wa-btn:hover::before { transform: translateX(200%); transition: transform .55s ease; }
@@ -480,6 +328,20 @@
   .ld-wa-btn:hover .ld-btn-arrow { background: rgba(61,35,24,.18); transform: translateX(4px); }
   .ld-btn-arrow svg { width: 11px; height: 11px; stroke: var(--esp); fill: none; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
 
+  /* ============ EDITORIAL BANNER ============ */
+  .ld-editorial { position: relative; background: var(--esp); color: var(--cream); padding: 72px 0; overflow: hidden; isolation: isolate; }
+  .ld-editorial-bg { position: absolute; inset: 0; z-index: 0; background: linear-gradient(155deg, #4a2c1c 0%, #3D2318 50%, #241309 100%); }
+  .ld-editorial-bg::before { content: ''; position: absolute; inset: 0; opacity: .4; mix-blend-mode: overlay; background-image: repeating-linear-gradient(90deg, rgba(255,255,255,.05) 0px, rgba(255,255,255,.05) 1px, transparent 1px, transparent 4px), repeating-linear-gradient(0deg, rgba(0,0,0,.14) 0px, rgba(0,0,0,.14) 1px, transparent 1px, transparent 4px); }
+  .ld-editorial-stitch { position: absolute; inset: 0; z-index: 1; opacity: .35; pointer-events: none; }
+  .ld-editorial-inner { position: relative; z-index: 2; max-width: 680px; margin: 0 auto; text-align: center; padding: 0 var(--px); }
+  .ld-editorial-mark { font-family: 'Cormorant Garamond', serif; font-style: italic; font-size: 15px; color: var(--tan); letter-spacing: 1px; margin-bottom: 20px; display: flex; align-items: center; justify-content: center; gap: 12px; }
+  .ld-editorial-mark::before, .ld-editorial-mark::after { content: ''; width: 32px; height: 1px; background: rgba(201,185,154,.5); }
+  .ld-editorial-quote { font-family: 'Cormorant Garamond', serif; font-weight: 300; font-size: clamp(24px, 4vw, 38px); line-height: 1.4; color: var(--cream); margin-bottom: 26px; }
+  .ld-editorial-quote em { font-style: italic; color: var(--tan); }
+  .ld-editorial-cta { display: inline-flex; align-items: center; gap: 8px; font-size: 11px; letter-spacing: 2px; text-transform: uppercase; font-weight: 500; color: var(--tan); text-decoration: none; border-bottom: 1px solid rgba(201,185,154,.4); padding-bottom: 6px; transition: color .2s, border-color .2s, gap .2s; }
+  .ld-editorial-cta:hover { color: var(--cream); border-color: var(--cream); gap: 12px; }
+  .ld-editorial-cta svg { width: 12px; height: 12px; stroke: currentColor; fill: none; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+
   /* ============ BRAND STORY ============ */
   .ld-story-grid { display: grid; grid-template-columns: 1fr; gap: 36px; align-items: center; }
   @media (min-width: 900px) { .ld-story-grid { grid-template-columns: .8fr 1.2fr; gap: 64px; } }
@@ -487,54 +349,75 @@
   .ld-story-ring { position: absolute; border: 1px solid var(--tan); border-radius: 50%; animation: ringSpin 24s linear infinite; }
   .ld-story-ring.r1 { width: 220px; height: 220px; }
   .ld-story-ring.r2 { width: 160px; height: 160px; background: var(--ivory); }
+  .ld-story-ring.r3 { width: 260px; height: 260px; border-style: dashed; opacity: .5; animation: ringSpin 40s linear infinite reverse; }
   .ld-story-mark { position: relative; font-family: 'Cormorant Garamond', serif; font-style: italic; font-size: 46px; color: var(--mocha); animation: markBounce 6s ease-in-out infinite; }
   .ld-story-text p { font-size: 14px; line-height: 1.85; color: #6b5648; margin-bottom: 16px; max-width: 560px; }
   .ld-story-sig { font-family: 'Cormorant Garamond', serif; font-style: italic; font-size: 18px; color: var(--clay); margin-top: 8px; }
+  .ld-story-facts { display: flex; flex-wrap: wrap; gap: 22px; margin-top: 24px; padding-top: 22px; border-top: 0.5px solid rgba(160,130,106,.3); }
+  .ld-story-fact { display: flex; flex-direction: column; gap: 2px; }
+  .ld-story-fact b { font-family: 'Cormorant Garamond', serif; font-size: 22px; color: var(--esp); }
+  .ld-story-fact span { font-size: 9px; letter-spacing: 1.5px; text-transform: uppercase; color: var(--clay); }
+  @keyframes storyFloat { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-8px); } }
+  @keyframes ringSpin { to { transform: rotate(360deg); } }
+  @keyframes markBounce { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-4px); } }
 
   /* ============ TESTIMONIALS ============ */
   .ld-testi-grid { display: grid; grid-auto-flow: column; grid-auto-columns: 82%; gap: 14px; overflow-x: auto; padding-bottom: 6px; scroll-snap-type: x mandatory; -webkit-overflow-scrolling: touch; }
   .ld-testi-grid::-webkit-scrollbar { display: none; }
   @media (min-width: 720px) { .ld-testi-grid { grid-auto-flow: row; grid-template-columns: repeat(2, 1fr); overflow: visible; } }
   @media (min-width: 1024px) { .ld-testi-grid { grid-template-columns: repeat(4, 1fr); } }
-  .ld-testi-card { background: var(--ivory); padding: 24px 22px; scroll-snap-align: start; }
-  .ld-testi-stars { display: flex; gap: 2px; margin-bottom: 12px; }
+  .ld-testi-card { background: var(--ivory); padding: 26px 22px; scroll-snap-align: start; position: relative; border: 1px solid transparent; transition: transform .25s ease, box-shadow .25s ease, border-color .25s ease; overflow: hidden; }
+  .ld-testi-card:hover { transform: translateY(-4px); box-shadow: 0 14px 30px rgba(61,35,24,.12); border-color: var(--tan); }
+  .ld-testi-quotemark { position: absolute; top: 6px; right: 16px; font-family: 'Cormorant Garamond', serif; font-size: 70px; line-height: 1; color: var(--tan); opacity: .28; pointer-events: none; }
+  .ld-testi-stars { display: flex; gap: 2px; margin-bottom: 12px; position: relative; }
   .ld-testi-stars svg { width: 12px; height: 12px; fill: var(--clay); }
-  .ld-testi-quote { font-size: 13px; line-height: 1.7; color: var(--esp); margin-bottom: 16px; }
-  .ld-testi-name { font-size: 11px; font-weight: 500; color: var(--mocha); }
-  .ld-testi-city { font-size: 10px; color: var(--clay); }
+  .ld-testi-quote { font-size: 13px; line-height: 1.7; color: var(--esp); margin-bottom: 16px; position: relative; }
+  .ld-testi-name { font-size: 11px; font-weight: 500; color: var(--mocha); position: relative; }
+  .ld-testi-city { font-size: 10px; color: var(--clay); position: relative; }
 
   /* ============ SOCIAL PROOF ============ */
   .ld-social { background: var(--sand); padding: 36px 0; display: flex; align-items: stretch; }
-  .ld-stat { flex: 1; text-align: center; padding: 0 8px; }
+  .ld-stat { flex: 1; text-align: center; padding: 0 8px; display: flex; flex-direction: column; align-items: center; }
+  .ld-stat-icon { width: 22px; height: 22px; stroke: var(--clay); fill: none; stroke-width: 1.4; margin-bottom: 10px; }
   .ld-stat-num { font-family: 'Cormorant Garamond', serif; font-size: clamp(24px, 5vw, 34px); font-weight: 300; color: var(--esp); line-height: 1; }
   .ld-stat-lbl { font-size: 9px; letter-spacing: 2px; text-transform: uppercase; color: var(--clay); margin-top: 4px; font-weight: 500; }
   .ld-stat-div { width: 0.5px; background: var(--tan); opacity: .5; flex-shrink: 0; }
 
   /* ============ FAQ ============ */
   .ld-faq-item { border-bottom: 0.5px solid var(--tan); }
-  .ld-faq-item summary { list-style: none; cursor: pointer; padding: 18px 4px; display: flex; justify-content: space-between; align-items: center; gap: 16px; font-size: 14px; font-weight: 400; -webkit-tap-highlight-color: transparent; }
+  .ld-faq-item summary { list-style: none; cursor: pointer; padding: 18px 4px; display: flex; align-items: center; gap: 16px; font-size: 14px; font-weight: 400; -webkit-tap-highlight-color: transparent; transition: color .2s; }
+  .ld-faq-item summary:hover { color: var(--mocha); }
+  .ld-faq-num { font-family: 'Cormorant Garamond', serif; font-style: italic; font-size: 16px; color: var(--tan); flex-shrink: 0; width: 24px; }
+  .ld-faq-item summary .ld-faq-q { flex: 1; }
   .ld-faq-item summary::-webkit-details-marker { display: none; }
   .ld-faq-plus { width: 18px; height: 18px; position: relative; flex-shrink: 0; }
   .ld-faq-plus::before, .ld-faq-plus::after { content: ''; position: absolute; background: var(--esp); transition: transform .25s; }
   .ld-faq-plus::before { top: 50%; left: 0; width: 100%; height: 1px; transform: translateY(-50%); }
   .ld-faq-plus::after { left: 50%; top: 0; height: 100%; width: 1px; transform: translateX(-50%); }
   .ld-faq-item[open] .ld-faq-plus::after { transform: translateX(-50%) rotate(90deg); opacity: 0; }
-  .ld-faq-item p { font-size: 12.5px; color: #8a7060; line-height: 1.7; padding: 0 4px 18px; max-width: 620px; }
+  .ld-faq-item p { font-size: 12.5px; color: #8a7060; line-height: 1.7; padding: 0 4px 18px 40px; max-width: 620px; }
+  .ld-faq-cta { margin-top: 32px; padding: 22px 24px; background: var(--cream); border: 1px dashed var(--tan); display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+  .ld-faq-cta p { font-size: 13px; color: var(--esp); }
+  .ld-faq-cta p b { font-family: 'Cormorant Garamond', serif; font-weight: 500; font-size: 16px; display: block; margin-bottom: 2px; }
+  .ld-faq-cta a { display: inline-flex; align-items: center; gap: 8px; font-size: 11px; letter-spacing: 1.5px; text-transform: uppercase; font-weight: 500; background: var(--esp); color: var(--cream); padding: 12px 20px; text-decoration: none; transition: background .2s, transform .15s; flex-shrink: 0; }
+  .ld-faq-cta a:hover { background: var(--mocha); transform: translateY(-1px); }
+  .ld-faq-cta a svg { width: 13px; height: 13px; stroke: var(--tan); fill: none; stroke-width: 1.8; }
 
   /* ============ FOOTER ============ */
-  .ld-footer { background: var(--esp); padding: 52px 0 0; }
+  .ld-footer { background: var(--esp); padding: 52px 0 0; position: relative; }
+  .ld-footer-stitch { position: absolute; top: 0; left: 0; right: 0; height: 1px; overflow: visible; }
   .ld-footer-grid { display: grid; grid-template-columns: 1fr; gap: 34px; padding-bottom: 36px; }
   @media (min-width: 720px) { .ld-footer-grid { grid-template-columns: 1.3fr 1fr 1fr; gap: 40px; } }
   .ld-footer-brand { font-family: 'Cormorant Garamond', serif; font-size: 22px; color: var(--cream); letter-spacing: 2px; margin-bottom: 12px; }
   .ld-footer-blurb { font-size: 12px; color: #a0907e; line-height: 1.7; max-width: 300px; margin-bottom: 18px; }
   .ld-footer-social { display: flex; gap: 12px; }
-  .ld-footer-social a { width: 34px; height: 34px; border: 0.5px solid rgba(250,247,242,.25); display: flex; align-items: center; justify-content: center; text-decoration: none; transition: background .2s; }
-  .ld-footer-social a:hover { background: rgba(250,247,242,.1); }
+  .ld-footer-social a { width: 34px; height: 34px; border: 0.5px solid rgba(250,247,242,.25); display: flex; align-items: center; justify-content: center; text-decoration: none; transition: background .2s, border-color .2s, transform .2s; }
+  .ld-footer-social a:hover { background: rgba(250,247,242,.1); border-color: var(--tan); transform: translateY(-2px); }
   .ld-footer-social svg { width: 14px; height: 14px; stroke: var(--tan); fill: none; stroke-width: 1.6; }
   .ld-footer-h { font-size: 10px; letter-spacing: 2px; text-transform: uppercase; color: var(--tan); font-weight: 500; margin-bottom: 16px; }
   .ld-footer-links-col { display: flex; flex-direction: column; gap: 11px; }
-  .ld-footer-link { font-size: 12.5px; letter-spacing: .3px; color: #c2b3a2; text-decoration: none; }
-  .ld-footer-link:hover { color: var(--cream); }
+  .ld-footer-link { font-size: 12.5px; letter-spacing: .3px; color: #c2b3a2; text-decoration: none; transition: color .2s, padding-left .2s; }
+  .ld-footer-link:hover { color: var(--cream); padding-left: 4px; }
   .ld-footer-bottom { border-top: 0.5px solid rgba(255,255,255,.08); padding: 18px var(--px); text-align: center; }
   .ld-footer-bottom p { font-size: 10.5px; color: #8a7565; }
 
@@ -549,13 +432,16 @@
   @media (min-width: 601px) { .ld-sticky-bar { display: none !important; } }
   @media (max-width: 600px) { body { padding-bottom: 76px; } }
 
+  /* ============ FLOATING DESKTOP WHATSAPP CTA ============ */
+  .ld-float-wa { position: fixed; left: 20px; bottom: 24px; z-index: 150; display: none; align-items: center; gap: 10px; background: #1f5e2e; color: #fff; text-decoration: none; padding: 12px 18px 12px 14px; border-radius: 999px; box-shadow: 0 10px 26px rgba(20,50,25,.35); opacity: 0; visibility: hidden; transform: translateY(10px); transition: opacity .25s, transform .25s, visibility 0s linear .25s, box-shadow .2s; }
+  .ld-float-wa.visible { opacity: 1; visibility: visible; transform: none; transition: opacity .25s, transform .25s; }
+  .ld-float-wa:hover { box-shadow: 0 14px 32px rgba(20,50,25,.45); transform: translateY(-2px); }
+  .ld-float-wa svg { width: 20px; height: 20px; stroke: #fff; fill: none; stroke-width: 1.8; flex-shrink: 0; }
+  .ld-float-wa span { font-size: 12px; font-weight: 500; letter-spacing: .3px; white-space: nowrap; }
+  @media (min-width: 601px) { .ld-float-wa { display: inline-flex; } }
+
   /* ============ BACK TO TOP ============ */
-  .ld-top-btn {
-    position: fixed; right: 20px; bottom: 24px; z-index: 150; width: 42px; height: 42px; border-radius: 50%;
-    background: var(--esp); border: none; cursor: pointer; display: flex; align-items: center; justify-content: center;
-    opacity: 0; visibility: hidden; transform: translateY(10px); transition: opacity .25s, transform .25s, visibility 0s linear .25s;
-    box-shadow: 0 6px 20px rgba(61,35,24,.3);
-  }
+  .ld-top-btn { position: fixed; right: 20px; bottom: 24px; z-index: 150; width: 42px; height: 42px; border-radius: 50%; background: var(--esp); border: none; cursor: pointer; display: flex; align-items: center; justify-content: center; opacity: 0; visibility: hidden; transform: translateY(10px); transition: opacity .25s, transform .25s, visibility 0s linear .25s; box-shadow: 0 6px 20px rgba(61,35,24,.3); }
   .ld-top-btn.visible { opacity: 1; visibility: visible; transform: none; transition: opacity .25s, transform .25s; }
   .ld-top-btn svg { width: 14px; height: 14px; stroke: var(--tan); fill: none; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
   @media (max-width: 600px) { .ld-top-btn { bottom: 90px; } }
@@ -679,13 +565,26 @@
     </div>
   </section>
 
+  <!-- ============ EDITORIAL BANNER ============ -->
+  <section class="ld-editorial" aria-label="Pernyataan brand">
+    <div class="ld-editorial-bg"></div>
+    <svg class="ld-editorial-stitch" viewBox="0 0 1200 220" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0 110 Q 150 40 300 110 T 600 110 T 900 110 T 1200 110" fill="none" stroke="#C9B99A" stroke-width="1" stroke-dasharray="6 8"/>
+    </svg>
+    <div class="ld-editorial-inner">
+      <p class="ld-editorial-mark">Filosofi LADELA</p>
+      <p class="ld-editorial-quote">Pakaian yang baik tidak perlu berteriak. Ia cukup <em>terasa benar</em> — di badan, dan di hati yang memakainya.</p>
+      <a class="ld-editorial-cta" href="#koleksi">Jelajahi Koleksi <svg viewBox="0 0 12 12"><polyline points="3,2 9,6 3,10"/></svg></a>
+    </div>
+  </section>
+
   <!-- ============ PRODUCTS ============ -->
   <section class="ld-section ld-section-alt" id="koleksi">
     <div class="wrap">
       <div class="ld-section-head reveal">
         <p class="ld-label">Pilih Produk</p>
         <h2 class="ld-h2">Koleksi <em>Favorit</em> Minggu Ini</h2>
-        <p class="ld-section-sub">5 desain earthy tone, restock terbatas — pilih, atur ukuran, checkout langsung ke WhatsApp.</p>
+        <p class="ld-section-sub">Desain earthy tone, restock terbatas — pilih warna, atur ukuran, checkout langsung ke WhatsApp.</p>
       </div>
       <div class="ld-products">
 
@@ -693,10 +592,11 @@
         <div class="ld-card reveal reveal-stagger" style="--i:0" data-id="cinnamon-ruffle" data-name="Cinnamon Ruffle" data-price="98000" data-ecom="219000" data-desc="Gamis linen earthy tone, silhouette flowy" onclick="selectProduct(this)">
           <div class="ld-thumb">
             <div class="ld-slides" id="slides-cinnamon-ruffle">
-              <div class="ld-slide" style="background:#F2EDE4"><img src="image/artikel baru 1.jpeg" alt="Cinnamon Ruffle — warna Sand"></div>
-              <div class="ld-slide" style="background:#020202"><img src="image/cinnamon black.jpg" alt="Cinnamon Ruffle — warna Pure Black"></div>            </div>
+              <div class="ld-slide" style="background:#bb7a02"><img src="image/artikel baru 1.jpeg" alt="Cinnamon Ruffle — warna Cinnamon" loading="lazy" decoding="async"></div>
+              <div class="ld-slide" style="background:#020202"><img src="image/cinnamon black.jpg" alt="Cinnamon Ruffle — warna Pure Black" loading="lazy" decoding="async"></div>
+            </div>
             <div class="ld-dots" id="dots-cinnamon-ruffle">
-              <div class="ld-dot active" style="background:#F2EDE4" onclick="goSlide('cinnamon-ruffle',0,event)"></div>
+              <div class="ld-dot active" style="background:#bb7a02" onclick="goSlide('cinnamon-ruffle',0,event)"></div>
               <div class="ld-dot" style="background:#000000" onclick="goSlide('cinnamon-ruffle',1,event)"></div>
             </div>
             <button class="ld-arrow ld-arrow-l" onclick="prevSlide('cinnamon-ruffle',event)" aria-label="Warna sebelumnya"><svg viewBox="0 0 12 12"><polyline points="8,2 4,6 8,10"/></svg></button>
@@ -707,14 +607,14 @@
           </div>
           <div class="ld-card-info">
             <p class="ld-card-name">Cinnamon Ruffle</p>
-            <p class="ld-card-color">Warna: <b id="color-cinnamon-ruffle">Sand</b></p>
+            <p class="ld-card-color">Warna: <b id="color-cinnamon-ruffle">Cinnamon</b></p>
             <div class="ld-swatches" id="swatches-cinnamon-ruffle" role="group" aria-label="Pilih warna Cinnamon Ruffle">
-              <button type="button" class="ld-swatch active" style="background:#F2EDE4" title="Sand" aria-label="Warna Sand" onclick="chooseSwatch('cinnamon-ruffle',0,event)"></button>
+              <button type="button" class="ld-swatch active" style="background:#bb7a02" title="Cinnamon" aria-label="Warna Cinnamon" onclick="chooseSwatch('cinnamon-ruffle',0,event)"></button>
               <button type="button" class="ld-swatch" style="background:#000000" title="Pure Black" aria-label="Warna Pure Black" onclick="chooseSwatch('cinnamon-ruffle',1,event)"></button>
             </div>
             <p class="ld-card-rating"><svg viewBox="0 0 20 20"><polygon points="10,1 12.6,7 19,7.5 14,12 15.5,18.5 10,15 4.5,18.5 6,12 1,7.5 7.4,7"/></svg> 4.8 · 210+ terjual</p>
             <p class="ld-card-price">Rp 98.000 <s>Rp 219.000</s></p>
-            <p class="ld-card-desc">For everyday fit, silhouette flowy.</p>
+            <p class="ld-card-desc">Soft earthy ruffles for effortless elegance.</p>
           </div>
         </div>
 
@@ -722,15 +622,15 @@
         <div class="ld-card reveal reveal-stagger" style="--i:1" data-id="jeans" data-name="Jeans" data-price="215000" data-ecom="249000" data-desc="Midi dress crinkle, wrinkle-free untuk aktivitas harian" onclick="selectProduct(this)">
           <div class="ld-thumb">
             <div class="ld-slides" id="slides-jeans">
-              <div class="ld-slide" style="background:#75d0fa"><img src="image/jeans blue white.webp" alt="Jeans by Ladela — warna Light Blue"></div>
-              <div class="ld-slide" style="background:#2f3dc0"><img src="image/jeans ladela.webp" alt="Jeans by Ladela — warna Dark Blue"></div>
+              <div class="ld-slide" style="background:#75d0fa"><img src="image/jeans blue white.webp" alt="Jeans by Ladela — warna Light Blue" loading="lazy" decoding="async"></div>
+              <div class="ld-slide" style="background:#2f3dc0"><img src="image/jeans ladela.webp" alt="Jeans by Ladela — warna Dark Blue" loading="lazy" decoding="async"></div>
             </div>
             <div class="ld-dots" id="dots-jeans">
               <div class="ld-dot active" style="background:#75d0fa" onclick="goSlide('jeans',0,event)"></div>
               <div class="ld-dot" style="background:#2f3dc0" onclick="goSlide('jeans',1,event)"></div>
             </div>
             <button class="ld-arrow ld-arrow-l" onclick="prevSlide('jeans',event)" aria-label="Warna sebelumnya"><svg viewBox="0 0 12 12"><polyline points="8,2 4,6 8,10"/></svg></button>
-            <button class="ld-arrow ld-arrow-r" onclick="nextSlide('jeans',3,event)" aria-label="Warna berikutnya"><svg viewBox="0 0 12 12"><polyline points="4,2 8,6 4,10"/></svg></button>
+            <button class="ld-arrow ld-arrow-r" onclick="nextSlide('jeans',2,event)" aria-label="Warna berikutnya"><svg viewBox="0 0 12 12"><polyline points="4,2 8,6 4,10"/></svg></button>
             <span class="ld-card-badge">Best Pick</span>
             <span class="ld-check"><svg viewBox="0 0 12 12" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="2,6 5,9 10,3"/></svg></span>
             <span class="ld-corner" aria-hidden="true"></span>
@@ -744,7 +644,7 @@
             </div>
             <p class="ld-card-rating"><svg viewBox="0 0 20 20"><polygon points="10,1 12.6,7 19,7.5 14,12 15.5,18.5 10,15 4.5,18.5 6,12 1,7.5 7.4,7"/></svg> 4.9 · 340+ terjual</p>
             <p class="ld-card-price">Rp 215.000 <s>Rp 249.000</s></p>
-            <p class="ld-card-desc">Jeans by Ladela, daily wear.</p>
+            <p class="ld-card-desc">Everyday denim with a relaxed modern fit.</p>
           </div>
         </div>
 
@@ -752,12 +652,12 @@
         <div class="ld-card reveal reveal-stagger" style="--i:2" data-id="urban-jacket" data-name="Urban Jacket" data-price="175000" data-ecom="199000" data-desc="Tunik panjang set celana palazzo, tone krem natural" onclick="selectProduct(this)">
           <div class="ld-thumb">
             <div class="ld-slides" id="slides-urban-jacket">
-              <div class="ld-slide" style="background:#046815"><img src="image/Urban Green.webp" alt="Urban Jacket — warna Green"></div>
-              <div class="ld-slide" style="background:#fff7e8"><img src="image/Urban White.webp" alt="Urban Jacket — warna White"></div>
-              <div class="ld-slide" style="background:#161514"><img src="image/Urban Black.webp" alt="Urban Jacket — warna Black"></div>
+              <div class="ld-slide" style="background:#065513"><img src="image/Urban Green.webp" alt="Urban Jacket — warna Green" loading="lazy" decoding="async"></div>
+              <div class="ld-slide" style="background:#fff7e8"><img src="image/Urban White.webp" alt="Urban Jacket — warna White" loading="lazy" decoding="async"></div>
+              <div class="ld-slide" style="background:#161514"><img src="image/Urban Black.webp" alt="Urban Jacket — warna Black" loading="lazy" decoding="async"></div>
             </div>
             <div class="ld-dots" id="dots-urban-jacket">
-              <div class="ld-dot active" style="background:#046815" onclick="goSlide('urban-jacket',0,event)"></div>
+              <div class="ld-dot active" style="background:#065513" onclick="goSlide('urban-jacket',0,event)"></div>
               <div class="ld-dot" style="background:#fff7e8" onclick="goSlide('urban-jacket',1,event)"></div>
               <div class="ld-dot" style="background:#161514" onclick="goSlide('urban-jacket',2,event)"></div>
             </div>
@@ -771,42 +671,42 @@
             <p class="ld-card-name">Urban Jacket</p>
             <p class="ld-card-color">Warna: <b id="color-urban-jacket">Green</b></p>
             <div class="ld-swatches" id="swatches-urban-jacket" role="group" aria-label="Pilih warna Urban Jacket">
-              <button type="button" class="ld-swatch active" style="background:#046815" title="Green" aria-label="Warna Green" onclick="chooseSwatch('urban-jacket',0,event)"></button>
+              <button type="button" class="ld-swatch active" style="background:#065513" title="Green" aria-label="Warna Green" onclick="chooseSwatch('urban-jacket',0,event)"></button>
               <button type="button" class="ld-swatch" style="background:#fff7e8" title="White" aria-label="Warna White" onclick="chooseSwatch('urban-jacket',1,event)"></button>
               <button type="button" class="ld-swatch" style="background:#161514" title="Black" aria-label="Warna Black" onclick="chooseSwatch('urban-jacket',2,event)"></button>
             </div>
             <p class="ld-card-rating"><svg viewBox="0 0 20 20"><polygon points="10,1 12.6,7 19,7.5 14,12 15.5,18.5 10,15 4.5,18.5 6,12 1,7.5 7.4,7"/></svg> 4.9 · 480+ terjual</p>
             <p class="ld-card-price">Rp 175.000 <s>Rp 199.000</s></p>
-            <p class="ld-card-desc">Tunik set palazzo, tone krem.</p>
+            <p class="ld-card-desc">Utility-inspired jacket with effortless street style.</p>
           </div>
         </div>
 
-        <!-- YUKIO -->
-        <div class="ld-card reveal reveal-stagger" style="--i:3" data-id="yukio" data-name="Yukio" data-price="199000" data-ecom="229000" data-desc="Outer kimono linen midi, warm sand tone" onclick="selectProduct(this)">
+        <!-- MAIRA -->
+        <div class="ld-card reveal reveal-stagger" style="--i:3" data-id="maira-jacket" data-name="Maira Jacket" data-price="199000" data-ecom="229000" data-desc="Outer kimono linen midi, warm sand tone" onclick="selectProduct(this)">
           <div class="ld-thumb">
-            <div class="ld-slides" id="slides-yukio">
-              <div class="ld-slide" style="background:#F2EDE4"><svg viewBox="0 0 48 72" width="56"><ellipse cx="24" cy="10" rx="9" ry="10" fill="#3D2318"/><path d="M8 26 L6 72 H42 L40 26 Q32 18 24 20 Q16 18 8 26Z" fill="#3D2318" opacity=".85"/></svg></div>
-              <div class="ld-slide" style="background:#DDD0BB"><svg viewBox="0 0 48 72" width="56"><ellipse cx="24" cy="10" rx="9" ry="10" fill="#7A5C4A"/><path d="M8 26 L6 72 H42 L40 26 Q32 18 24 20 Q16 18 8 26Z" fill="#7A5C4A" opacity=".85"/></svg></div>
-              <div class="ld-slide" style="background:#A0826A"><svg viewBox="0 0 48 72" width="56"><ellipse cx="24" cy="10" rx="9" ry="10" fill="#FAF7F2"/><path d="M8 26 L6 72 H42 L40 26 Q32 18 24 20 Q16 18 8 26Z" fill="#FAF7F2" opacity=".85"/></svg></div>
+            <div class="ld-slides" id="slides-maira-jacket">
+              <div class="ld-slide" style="background:#000000"><img src="image/Maira Black.webp" alt="Maira Jacket — warna Black" loading="lazy" decoding="async"></div>
+              <div class="ld-slide" style="background:#0c701a"><img src="image/Maira Army.webp" alt="Maira Jacket — warna Army" loading="lazy" decoding="async"></div>
+              <div class="ld-slide" style="background:#ece7e2"><img src="image/Maira Cream.webp" alt="Maira Jacket — warna Cream" loading="lazy" decoding="async"></div>
             </div>
-            <div class="ld-dots" id="dots-yukio">
-              <div class="ld-dot active" style="background:#F2EDE4" onclick="goSlide('yukio',0,event)"></div>
-              <div class="ld-dot" style="background:#DDD0BB" onclick="goSlide('yukio',1,event)"></div>
-              <div class="ld-dot" style="background:#A0826A" onclick="goSlide('yukio',2,event)"></div>
+            <div class="ld-dots" id="dots-maira-jacket">
+              <div class="ld-dot active" style="background:#000000" onclick="goSlide('maira-jacket',0,event)"></div>
+              <div class="ld-dot" style="background:#0c701a" onclick="goSlide('maira-jacket',1,event)"></div>
+              <div class="ld-dot" style="background:#ece7e2" onclick="goSlide('maira-jacket',2,event)"></div>
             </div>
-            <button class="ld-arrow ld-arrow-l" onclick="prevSlide('yukio',event)" aria-label="Warna sebelumnya"><svg viewBox="0 0 12 12"><polyline points="8,2 4,6 8,10"/></svg></button>
-            <button class="ld-arrow ld-arrow-r" onclick="nextSlide('yukio',3,event)" aria-label="Warna berikutnya"><svg viewBox="0 0 12 12"><polyline points="4,2 8,6 4,10"/></svg></button>
+            <button class="ld-arrow ld-arrow-l" onclick="prevSlide('maira-jacket',event)" aria-label="Warna sebelumnya"><svg viewBox="0 0 12 12"><polyline points="8,2 4,6 8,10"/></svg></button>
+            <button class="ld-arrow ld-arrow-r" onclick="nextSlide('maira-jacket',3,event)" aria-label="Warna berikutnya"><svg viewBox="0 0 12 12"><polyline points="4,2 8,6 4,10"/></svg></button>
             <span class="ld-card-badge">New</span>
             <span class="ld-check"><svg viewBox="0 0 12 12" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="2,6 5,9 10,3"/></svg></span>
             <span class="ld-corner" aria-hidden="true"></span>
           </div>
           <div class="ld-card-info">
-            <p class="ld-card-name">Yukio</p>
-            <p class="ld-card-color">Warna: <b id="color-yukio">Sand</b></p>
-            <div class="ld-swatches" id="swatches-yukio" role="group" aria-label="Pilih warna Yukio">
-              <button type="button" class="ld-swatch active" style="background:#F2EDE4" title="Sand" aria-label="Warna Sand" onclick="chooseSwatch('yukio',0,event)"></button>
-              <button type="button" class="ld-swatch" style="background:#DDD0BB" title="Warm Tan" aria-label="Warna Warm Tan" onclick="chooseSwatch('yukio',1,event)"></button>
-              <button type="button" class="ld-swatch" style="background:#A0826A" title="Clay" aria-label="Warna Clay" onclick="chooseSwatch('yukio',2,event)"></button>
+            <p class="ld-card-name">Maira Jacket</p>
+            <p class="ld-card-color">Warna: <b id="color-maira-jacket">Black</b></p>
+            <div class="ld-swatches" id="swatches-maira-jacket" role="group" aria-label="Pilih warna Maira Jacket">
+              <button type="button" class="ld-swatch active" style="background:#000000" title="Black" aria-label="Warna Black" onclick="chooseSwatch('maira-jacket',0,event)"></button>
+              <button type="button" class="ld-swatch" style="background:#0c701a" title="Army" aria-label="Warna Army" onclick="chooseSwatch('maira-jacket',1,event)"></button>
+              <button type="button" class="ld-swatch" style="background:#ece7e2" title="Cream" aria-label="Warna Cream" onclick="chooseSwatch('maira-jacket',2,event)"></button>
             </div>
             <p class="ld-card-rating"><svg viewBox="0 0 20 20"><polygon points="10,1 12.6,7 19,7.5 14,12 15.5,18.5 10,15 4.5,18.5 6,12 1,7.5 7.4,7"/></svg> 4.7 · 150+ terjual</p>
             <p class="ld-card-price">Rp 199.000 <s>Rp 229.000</s></p>
@@ -814,18 +714,117 @@
           </div>
         </div>
 
-        <!-- MANGGO -->
-        <div class="ld-card reveal reveal-stagger" style="--i:4" data-id="manggo" data-name="Manggo" data-price="165000" data-ecom="189000" data-desc="Blouse oversize premium cotton, tone netral" onclick="selectProduct(this)">
+        <!-- Arumi -->
+        <div class="ld-card reveal reveal-stagger" style="--i:4" data-id="arumi-jacket" data-name="Arumi Jacket" data-price="165000" data-ecom="189000" data-desc="Blouse oversize premium cotton, tone netral" onclick="selectProduct(this)">
+          <div class="ld-thumb">
+            <div class="ld-slides" id="slides-arumi-jacket">
+              <div class="ld-slide" style="background:#f7e8d3"><img src="image/Arumi Cream.webp" alt="Arumi Jacket — warna Cream" loading="lazy" decoding="async"></div>
+              <div class="ld-slide" style="background:#0e5815"><img src="image/Arumi Army.webp" alt="Arumi Jacket — warna Army" loading="lazy" decoding="async"></div>
+              <div class="ld-slide" style="background:#0a0a09"><img src="image/Arumi Black.webp" alt="Arumi Jacket — warna Black" loading="lazy" decoding="async"></div>
+            </div>
+            <div class="ld-dots" id="dots-arumi-jacket">
+              <div class="ld-dot active" style="background:#f7e8d3" onclick="goSlide('arumi-jacket',0,event)"></div>
+              <div class="ld-dot" style="background:#0e5815" onclick="goSlide('arumi-jacket',1,event)"></div>
+              <div class="ld-dot" style="background:#0a0a09" onclick="goSlide('arumi-jacket',2,event)"></div>
+            </div>
+            <button class="ld-arrow ld-arrow-l" onclick="prevSlide('arumi-jacket',event)" aria-label="Warna sebelumnya"><svg viewBox="0 0 12 12"><polyline points="8,2 4,6 8,10"/></svg></button>
+            <button class="ld-arrow ld-arrow-r" onclick="nextSlide('arumi-jacket',3,event)" aria-label="Warna berikutnya"><svg viewBox="0 0 12 12"><polyline points="4,2 8,6 4,10"/></svg></button>
+            <span class="ld-card-badge">Favorit</span>
+            <span class="ld-check"><svg viewBox="0 0 12 12" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="2,6 5,9 10,3"/></svg></span>
+            <span class="ld-corner" aria-hidden="true"></span>
+          </div>
+          <div class="ld-card-info">
+            <p class="ld-card-name">Arumi Jacket</p>
+            <p class="ld-card-color">Warna: <b id="color-arumi-jacket">Warm Ivory</b></p>
+            <div class="ld-swatches" id="swatches-arumi-jacket" role="group" aria-label="Pilih warna Arumi Jacket">
+              <button type="button" class="ld-swatch active" style="background:#f7e8d3" title="Warm Ivory" aria-label="Warna Warm Ivory" onclick="chooseSwatch('arumi-jacket',0,event)"></button>
+              <button type="button" class="ld-swatch" style="background:#0e5815" title="Army" aria-label="Warna Army" onclick="chooseSwatch('arumi-jacket',1,event)"></button>
+              <button type="button" class="ld-swatch" style="background:#0a0a09" title="Black" aria-label="Warna Black" onclick="chooseSwatch('arumi-jacket',2,event)"></button>
+            </div>
+            <p class="ld-card-rating"><svg viewBox="0 0 20 20"><polygon points="10,1 12.6,7 19,7.5 14,12 15.5,18.5 10,15 4.5,18.5 6,12 1,7.5 7.4,7"/></svg> 4.8 · 290+ terjual</p>
+            <p class="ld-card-price">Rp 165.000 <s>Rp 189.000</s></p>
+            <p class="ld-card-desc">Lightweight utility jacket for daily comfort.</p>
+          </div>
+        </div>
+
+        <!-- CHIYO -->
+        <div class="ld-card reveal reveal-stagger" style="--i:0" data-id="chiyo-jacket" data-name="Chiyo Jacket" data-price="175000" data-ecom="199000" data-desc="Tunik panjang set celana palazzo, tone krem natural" onclick="selectProduct(this)">
+          <div class="ld-thumb">
+            <div class="ld-slides" id="slides-chiyo-jacket">
+              <div class="ld-slide" style="background:#065513"><img src="image/Chiyo Army.webp" alt="Chiyo Jacket — warna Army" loading="lazy" decoding="async"></div>
+              <div class="ld-slide" style="background:#fff7e8"><img src="image/Chiyo Cream.webp" alt="Chiyo Jacket — warna Cream" loading="lazy" decoding="async"></div>
+              <div class="ld-slide" style="background:#161514"><img src="image/Chiyo Black.webp" alt="Chiyo Jacket — warna Black" loading="lazy" decoding="async"></div>
+            </div>
+            <div class="ld-dots" id="dots-chiyo-jacket">
+              <div class="ld-dot active" style="background:#065513" onclick="goSlide('chiyo-jacket',0,event)"></div>
+              <div class="ld-dot" style="background:#fff7e8" onclick="goSlide('chiyo-jacket',1,event)"></div>
+              <div class="ld-dot" style="background:#161514" onclick="goSlide('chiyo-jacket',2,event)"></div>
+            </div>
+            <button class="ld-arrow ld-arrow-l" onclick="prevSlide('chiyo-jacket',event)" aria-label="Warna sebelumnya"><svg viewBox="0 0 12 12"><polyline points="8,2 4,6 8,10"/></svg></button>
+            <button class="ld-arrow ld-arrow-r" onclick="nextSlide('chiyo-jacket',3,event)" aria-label="Warna berikutnya"><svg viewBox="0 0 12 12"><polyline points="4,2 8,6 4,10"/></svg></button>
+            <span class="ld-card-badge">Terlaris</span>
+            <span class="ld-check"><svg viewBox="0 0 12 12" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="2,6 5,9 10,3"/></svg></span>
+            <span class="ld-corner" aria-hidden="true"></span>
+          </div>
+          <div class="ld-card-info">
+            <p class="ld-card-name">Chiyo Jacket</p>
+            <p class="ld-card-color">Warna: <b id="color-chiyo-jacket">Green</b></p>
+            <div class="ld-swatches" id="swatches-chiyo-jacket" role="group" aria-label="Pilih warna Chiyo Jacket">
+              <button type="button" class="ld-swatch active" style="background:#065513" title="Green" aria-label="Warna Green" onclick="chooseSwatch('chiyo-jacket',0,event)"></button>
+              <button type="button" class="ld-swatch" style="background:#fff7e8" title="White" aria-label="Warna White" onclick="chooseSwatch('chiyo-jacket',1,event)"></button>
+              <button type="button" class="ld-swatch" style="background:#161514" title="Black" aria-label="Warna Black" onclick="chooseSwatch('chiyo-jacket',2,event)"></button>
+            </div>
+            <p class="ld-card-rating"><svg viewBox="0 0 20 20"><polygon points="10,1 12.6,7 19,7.5 14,12 15.5,18.5 10,15 4.5,18.5 6,12 1,7.5 7.4,7"/></svg> 4.9 · 480+ terjual</p>
+            <p class="ld-card-price">Rp 175.000 <s>Rp 199.000</s></p>
+            <p class="ld-card-desc">Relaxed cargo style with an urban touch.</p>
+          </div>
+        </div>
+
+        <!-- JEJU -->
+        <div class="ld-card reveal reveal-stagger" style="--i:1" data-id="jeju-jacket" data-name="Jeju Jacket" data-price="199000" data-ecom="229000" data-desc="Outer kimono linen midi, warm sand tone" onclick="selectProduct(this)">
+          <div class="ld-thumb">
+            <div class="ld-slides" id="slides-jeju-jacket">
+              <div class="ld-slide" style="background:#ece7e2"><img src="image/Jeju Cream.webp" alt="Jeju Jacket — warna Cream" loading="lazy" decoding="async"></div>
+              <div class="ld-slide" style="background:#0a4712"><img src="image/Jeju Army.webp" alt="Jeju Jacket — warna Army" loading="lazy" decoding="async"></div>
+              <div class="ld-slide" style="background:#000000"><img src="image/Jeju Black.webp" alt="Jeju Jacket — warna Black" loading="lazy" decoding="async"></div>
+            </div>
+            <div class="ld-dots" id="dots-jeju-jacket">
+              <div class="ld-dot active" style="background:#ece7e2" onclick="goSlide('jeju-jacket',0,event)"></div>
+              <div class="ld-dot" style="background:#0a4712" onclick="goSlide('jeju-jacket',1,event)"></div>
+              <div class="ld-dot" style="background:#000000" onclick="goSlide('jeju-jacket',2,event)"></div>
+            </div>
+            <button class="ld-arrow ld-arrow-l" onclick="prevSlide('jeju-jacket',event)" aria-label="Warna sebelumnya"><svg viewBox="0 0 12 12"><polyline points="8,2 4,6 8,10"/></svg></button>
+            <button class="ld-arrow ld-arrow-r" onclick="nextSlide('jeju-jacket',3,event)" aria-label="Warna berikutnya"><svg viewBox="0 0 12 12"><polyline points="4,2 8,6 4,10"/></svg></button>
+            <span class="ld-card-badge">New</span>
+            <span class="ld-check"><svg viewBox="0 0 12 12" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="2,6 5,9 10,3"/></svg></span>
+            <span class="ld-corner" aria-hidden="true"></span>
+          </div>
+          <div class="ld-card-info">
+            <p class="ld-card-name">Jeju Jacket</p>
+            <p class="ld-card-color">Warna: <b id="color-jeju-jacket">Cream</b></p>
+            <div class="ld-swatches" id="swatches-jeju-jacket" role="group" aria-label="Pilih warna Jeju Jacket">
+              <button type="button" class="ld-swatch active" style="background:#ece7e2" title="Cream" aria-label="Warna Cream" onclick="chooseSwatch('jeju-jacket',0,event)"></button>
+              <button type="button" class="ld-swatch" style="background:#0a4712" title="Army" aria-label="Warna Army" onclick="chooseSwatch('jeju-jacket',1,event)"></button>
+              <button type="button" class="ld-swatch" style="background:#000000" title="Black" aria-label="Warna Black" onclick="chooseSwatch('jeju-jacket',2,event)"></button>
+            </div>
+            <p class="ld-card-rating"><svg viewBox="0 0 20 20"><polygon points="10,1 12.6,7 19,7.5 14,12 15.5,18.5 10,15 4.5,18.5 6,12 1,7.5 7.4,7"/></svg> 4.7 · 150+ terjual</p>
+            <p class="ld-card-price">Rp 199.000 <s>Rp 229.000</s></p>
+            <p class="ld-card-desc">Soft neutral outer for effortless layering.</p>
+          </div>
+        </div>
+
+        <!-- Manggo -->
+        <div class="ld-card reveal reveal-stagger" style="--i:2" data-id="manggo" data-name="Manggo" data-price="165000" data-ecom="189000" data-desc="Blouse oversize premium cotton, tone netral" onclick="selectProduct(this)">
           <div class="ld-thumb">
             <div class="ld-slides" id="slides-manggo">
-              <div class="ld-slide" style="background:#E8E0D5"><svg viewBox="0 0 48 52" width="56"><ellipse cx="24" cy="9" rx="8" ry="9" fill="#3D2318"/><path d="M4 24 Q14 16 24 18 Q34 16 44 24 L46 52 H2 Z" fill="#3D2318"/></svg></div>
-              <div class="ld-slide" style="background:#C9B99A"><svg viewBox="0 0 48 52" width="56"><ellipse cx="24" cy="9" rx="8" ry="9" fill="#3D2318"/><path d="M4 24 Q14 16 24 18 Q34 16 44 24 L46 52 H2 Z" fill="#3D2318"/></svg></div>
-              <div class="ld-slide" style="background:#F2EDE4"><svg viewBox="0 0 48 52" width="56"><ellipse cx="24" cy="9" rx="8" ry="9" fill="#7A5C4A"/><path d="M4 24 Q14 16 24 18 Q34 16 44 24 L46 52 H2 Z" fill="#7A5C4A"/></svg></div>
+              <div class="ld-slide" style="background:#f7e8d3"><img src="image/Manggo White.webp" alt="Manggo — warna Cream" loading="lazy" decoding="async"></div>
+              <div class="ld-slide" style="background:#000000"><img src="image/Manggo Black.webp" alt="Manggo — warna Black" loading="lazy" decoding="async"></div>
+              <div class="ld-slide" style="background:#142c97"><img src="image/Manggo Stripe Blue.webp" alt="Manggo — warna Stripe Blue" loading="lazy" decoding="async"></div>
             </div>
             <div class="ld-dots" id="dots-manggo">
-              <div class="ld-dot active" style="background:#E8E0D5" onclick="goSlide('manggo',0,event)"></div>
-              <div class="ld-dot" style="background:#C9B99A" onclick="goSlide('manggo',1,event)"></div>
-              <div class="ld-dot" style="background:#F2EDE4" onclick="goSlide('manggo',2,event)"></div>
+              <div class="ld-dot active" style="background:#f7e8d3" onclick="goSlide('manggo',0,event)"></div>
+              <div class="ld-dot" style="background:#000000" onclick="goSlide('manggo',1,event)"></div>
+              <div class="ld-dot" style="background:#142c97" onclick="goSlide('manggo',2,event)"></div>
             </div>
             <button class="ld-arrow ld-arrow-l" onclick="prevSlide('manggo',event)" aria-label="Warna sebelumnya"><svg viewBox="0 0 12 12"><polyline points="8,2 4,6 8,10"/></svg></button>
             <button class="ld-arrow ld-arrow-r" onclick="nextSlide('manggo',3,event)" aria-label="Warna berikutnya"><svg viewBox="0 0 12 12"><polyline points="4,2 8,6 4,10"/></svg></button>
@@ -835,15 +834,136 @@
           </div>
           <div class="ld-card-info">
             <p class="ld-card-name">Manggo</p>
-            <p class="ld-card-color">Warna: <b id="color-manggo">Warm Ivory</b></p>
+            <p class="ld-card-color">Warna: <b id="color-manggo">Cream</b></p>
             <div class="ld-swatches" id="swatches-manggo" role="group" aria-label="Pilih warna Manggo">
-              <button type="button" class="ld-swatch active" style="background:#E8E0D5" title="Warm Ivory" aria-label="Warna Warm Ivory" onclick="chooseSwatch('manggo',0,event)"></button>
-              <button type="button" class="ld-swatch" style="background:#C9B99A" title="Tan" aria-label="Warna Tan" onclick="chooseSwatch('manggo',1,event)"></button>
-              <button type="button" class="ld-swatch" style="background:#F2EDE4" title="Sand" aria-label="Warna Sand" onclick="chooseSwatch('manggo',2,event)"></button>
+              <button type="button" class="ld-swatch active" style="background:#f7e8d3" title="Cream" aria-label="Warna Cream" onclick="chooseSwatch('manggo',0,event)"></button>
+              <button type="button" class="ld-swatch" style="background:#000000" title="Black" aria-label="Warna Black" onclick="chooseSwatch('manggo',1,event)"></button>
+              <button type="button" class="ld-swatch" style="background:#142c97" title="Stripe Blue" aria-label="Warna Stripe Blue" onclick="chooseSwatch('manggo',2,event)"></button>
             </div>
             <p class="ld-card-rating"><svg viewBox="0 0 20 20"><polygon points="10,1 12.6,7 19,7.5 14,12 15.5,18.5 10,15 4.5,18.5 6,12 1,7.5 7.4,7"/></svg> 4.8 · 290+ terjual</p>
             <p class="ld-card-price">Rp 165.000 <s>Rp 189.000</s></p>
-            <p class="ld-card-desc">Blouse oversize, cotton premium.</p>
+            <p class="ld-card-desc">Airy cotton blouse with delicate feminine details.</p>
+          </div>
+        </div>
+
+        <!-- Hilmi Blouse -->
+        <div class="ld-card reveal reveal-stagger" style="--i:3" data-id="hilmi-blouse" data-name="Hilmi Blouse" data-price="98000" data-ecom="219000" data-desc="Gamis linen earthy tone, silhouette flowy" onclick="selectProduct(this)">
+          <div class="ld-thumb">
+            <div class="ld-slides" id="slides-hilmi-blouse">
+              <div class="ld-slide" style="background:#462d01"><img src="image/Hilmi Brown.webp" alt="Hilmi Blouse — warna Brown" loading="lazy" decoding="async"></div>
+              <div class="ld-slide" style="background:#fcfafa"><img src="image/Hilmi White.webp" alt="Hilmi Blouse — warna White" loading="lazy" decoding="async"></div>
+              <div class="ld-slide" style="background:#000000"><img src="image/Hilmi Black.webp" alt="Hilmi Blouse — warna Black" loading="lazy" decoding="async"></div>
+            </div>
+            <div class="ld-dots" id="dots-hilmi-blouse">
+              <div class="ld-dot active" style="background:#462d01" onclick="goSlide('hilmi-blouse',0,event)"></div>
+              <div class="ld-dot" style="background:#fcfafa" onclick="goSlide('hilmi-blouse',1,event)"></div>
+              <div class="ld-dot" style="background:#000000" onclick="goSlide('hilmi-blouse',2,event)"></div>
+            </div>
+            <button class="ld-arrow ld-arrow-l" onclick="prevSlide('hilmi-blouse',event)" aria-label="Warna sebelumnya"><svg viewBox="0 0 12 12"><polyline points="8,2 4,6 8,10"/></svg></button>
+            <button class="ld-arrow ld-arrow-r" onclick="nextSlide('hilmi-blouse',3,event)" aria-label="Warna berikutnya"><svg viewBox="0 0 12 12"><polyline points="4,2 8,6 4,10"/></svg></button>
+            <span class="ld-card-badge">New</span>
+            <span class="ld-check"><svg viewBox="0 0 12 12" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="2,6 5,9 10,3"/></svg></span>
+            <span class="ld-corner" aria-hidden="true"></span>
+          </div>
+          <div class="ld-card-info">
+            <p class="ld-card-name">Hilmi Blouse</p>
+            <p class="ld-card-color">Warna: <b id="color-hilmi-blouse">Sand</b></p>
+            <div class="ld-swatches" id="swatches-hilmi-blouse" role="group" aria-label="Pilih warna Hilmi Blouse">
+              <button type="button" class="ld-swatch active" style="background:#462d01" title="Sand" aria-label="Warna Sand" onclick="chooseSwatch('hilmi-blouse',0,event)"></button>
+              <button type="button" class="ld-swatch" style="background:#fcfafa" title="White" aria-label="Warna White" onclick="chooseSwatch('hilmi-blouse',1,event)"></button>
+              <button type="button" class="ld-swatch" style="background:#000000" title="Black" aria-label="Warna Black" onclick="chooseSwatch('hilmi-blouse',2,event)"></button>
+            </div>
+            <p class="ld-card-rating"><svg viewBox="0 0 20 20"><polygon points="10,1 12.6,7 19,7.5 14,12 15.5,18.5 10,15 4.5,18.5 6,12 1,7.5 7.4,7"/></svg> 4.8 · 210+ terjual</p>
+            <p class="ld-card-price">Rp 98.000 <s>Rp 219.000</s></p>
+            <p class="ld-card-desc">Vintage-inspired blouse with graceful volume.</p>
+          </div>
+        </div>
+
+        <!-- CINDY -->
+        <div class="ld-card reveal reveal-stagger" style="--i:4" data-id="cindy" data-name="Cindy" data-price="215000" data-ecom="249000" data-desc="Midi dress crinkle, wrinkle-free untuk aktivitas harian" onclick="selectProduct(this)">
+          <div class="ld-thumb">
+            <div class="ld-slides" id="slides-cindy">
+              <div class="ld-slide" style="background:#93d6f5"><img src="image/Cindy Blue.webp" alt="Cindy — warna Light Blue" loading="lazy" decoding="async"></div>
+              <div class="ld-slide" style="background:#000000"><img src="image/Cindy Black.webp" alt="Cindy — warna Black" loading="lazy" decoding="async"></div>
+            </div>
+            <div class="ld-dots" id="dots-cindy">
+              <div class="ld-dot active" style="background:#93d6f5" onclick="goSlide('cindy',0,event)"></div>
+              <div class="ld-dot" style="background:#000000" onclick="goSlide('cindy',1,event)"></div>
+            </div>
+            <button class="ld-arrow ld-arrow-l" onclick="prevSlide('cindy',event)" aria-label="Warna sebelumnya"><svg viewBox="0 0 12 12"><polyline points="8,2 4,6 8,10"/></svg></button>
+            <button class="ld-arrow ld-arrow-r" onclick="nextSlide('cindy',2,event)" aria-label="Warna berikutnya"><svg viewBox="0 0 12 12"><polyline points="4,2 8,6 4,10"/></svg></button>
+            <span class="ld-card-badge">Best Pick</span>
+            <span class="ld-check"><svg viewBox="0 0 12 12" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="2,6 5,9 10,3"/></svg></span>
+            <span class="ld-corner" aria-hidden="true"></span>
+          </div>
+          <div class="ld-card-info">
+            <p class="ld-card-name">Cindy</p>
+            <p class="ld-card-color">Warna: <b id="color-cindy">Light Blue</b></p>
+            <div class="ld-swatches" id="swatches-cindy" role="group" aria-label="Pilih warna Cindy">
+              <button type="button" class="ld-swatch active" style="background:#93d6f5" title="Light Blue" aria-label="Warna Light Blue" onclick="chooseSwatch('cindy',0,event)"></button>
+              <button type="button" class="ld-swatch" style="background:#000000" title="Black" aria-label="Warna Black" onclick="chooseSwatch('cindy',1,event)"></button>
+            </div>
+            <p class="ld-card-rating"><svg viewBox="0 0 20 20"><polygon points="10,1 12.6,7 19,7.5 14,12 15.5,18.5 10,15 4.5,18.5 6,12 1,7.5 7.4,7"/></svg> 4.9 · 340+ terjual</p>
+            <p class="ld-card-price">Rp 215.000 <s>Rp 249.000</s></p>
+            <p class="ld-card-desc">Lightweight oversized blouse for everyday elegance.</p>
+          </div>
+        </div>
+
+        <!-- VYORA -->
+        <div class="ld-card reveal reveal-stagger" style="--i:0" data-id="vyora-jacket" data-name="Vyora Jacket" data-price="175000" data-ecom="199000" data-desc="Outer Jacket with affordable use" onclick="selectProduct(this)">
+          <div class="ld-thumb">
+            <div class="ld-slides" id="slides-vyora-jacket">
+              <div class="ld-slide" style="background:#000000"><img src="image/Vyora Black.webp" alt="Vyora Jacket — warna Black" loading="lazy" decoding="async"></div>
+              <div class="ld-slide" style="background:#fff7e8"><img src="image/Vyora White.webp" alt="Vyora Jacket — warna White" loading="lazy" decoding="async"></div>
+              <div class="ld-slide" style="background:#643203"><img src="image/Vyora Brown.webp" alt="Vyora Jacket — warna Brown" loading="lazy" decoding="async"></div>
+            </div>
+            <div class="ld-dots" id="dots-chiyo-jacket-2">
+              <div class="ld-dot active" style="background:#000000" onclick="goSlide('chiyo-jacket-2',0,event)"></div>
+              <div class="ld-dot" style="background:#fff7e8" onclick="goSlide('chiyo-jacket-2',1,event)"></div>
+              <div class="ld-dot" style="background:#643203" onclick="goSlide('chiyo-jacket-2',2,event)"></div>
+            </div>
+            <button class="ld-arrow ld-arrow-l" onclick="prevSlide('chiyo-jacket-2',event)" aria-label="Warna sebelumnya"><svg viewBox="0 0 12 12"><polyline points="8,2 4,6 8,10"/></svg></button>
+            <button class="ld-arrow ld-arrow-r" onclick="nextSlide('chiyo-jacket-2',3,event)" aria-label="Warna berikutnya"><svg viewBox="0 0 12 12"><polyline points="4,2 8,6 4,10"/></svg></button>
+            <span class="ld-card-badge">Terlaris</span>
+            <span class="ld-check"><svg viewBox="0 0 12 12" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="2,6 5,9 10,3"/></svg></span>
+            <span class="ld-corner" aria-hidden="true"></span>
+          </div>
+          <div class="ld-card-info">
+            <p class="ld-card-name">Vyora Jacket</p>
+            <p class="ld-card-color">Warna: <b id="color-chiyo-jacket-2">Black</b></p>
+            <div class="ld-swatches" id="swatches-chiyo-jacket-2" role="group" aria-label="Pilih warna Chiyo Jacket">
+              <button type="button" class="ld-swatch active" style="background:#000000" title="Black" aria-label="Warna Black" onclick="chooseSwatch('chiyo-jacket-2',0,event)"></button>
+              <button type="button" class="ld-swatch" style="background:#fff7e8" title="White" aria-label="Warna White" onclick="chooseSwatch('chiyo-jacket-2',1,event)"></button>
+              <button type="button" class="ld-swatch" style="background:#643203" title="Brown" aria-label="Warna Brown" onclick="chooseSwatch('chiyo-jacket-2',2,event)"></button>
+            </div>
+            <p class="ld-card-rating"><svg viewBox="0 0 20 20"><polygon points="10,1 12.6,7 19,7.5 14,12 15.5,18.5 10,15 4.5,18.5 6,12 1,7.5 7.4,7"/></svg> 4.9 · 480+ terjual</p>
+            <p class="ld-card-price">Rp 175.000 <s>Rp 199.000</s></p>
+            <p class="ld-card-desc">Outer Jacket with affordable use.</p>
+          </div>
+        </div>
+
+        <!-- JIRA -->
+        <div class="ld-card reveal reveal-stagger" style="--i:1" data-id="jira-blouse" data-name="Jira Blouse" data-price="199000" data-ecom="229000" data-desc="Outer kimono linen midi, warm sand tone" onclick="selectProduct(this)">
+          <div class="ld-thumb">
+            <div class="ld-slides" id="slides-jira-blouse">
+              <div class="ld-slide" style="background:#fffefe"><img src="image/Jira.webp" alt="Jira Blouse — warna White" loading="lazy" decoding="async"></div>
+            </div>
+            <div class="ld-dots" id="dots-jira-blouse">
+              <div class="ld-dot active" style="background:#fffefe" onclick="goSlide('jira-blouse',0,event)"></div>
+            </div>
+            <span class="ld-card-badge">Best</span>
+            <span class="ld-check"><svg viewBox="0 0 12 12" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="2,6 5,9 10,3"/></svg></span>
+            <span class="ld-corner" aria-hidden="true"></span>
+          </div>
+          <div class="ld-card-info">
+            <p class="ld-card-name">Jira Blouse</p>
+            <p class="ld-card-color">Warna: <b id="color-jira-blouse">White</b></p>
+            <div class="ld-swatches" id="swatches-jira-blouse" role="group" aria-label="Pilih warna Jira Blouse">
+              <button type="button" class="ld-swatch active" style="background:#fffefe" title="White" aria-label="Warna White" onclick="chooseSwatch('jira-blouse',0,event)"></button>
+            </div>
+            <p class="ld-card-rating"><svg viewBox="0 0 20 20"><polygon points="10,1 12.6,7 19,7.5 14,12 15.5,18.5 10,15 4.5,18.5 6,12 1,7.5 7.4,7"/></svg> 4.7 · 350+ terjual</p>
+            <p class="ld-card-price">Rp 199.000 <s>Rp 229.000</s></p>
+            <p class="ld-card-desc">Elegant white blouse with soft textured details.</p>
           </div>
         </div>
 
@@ -865,6 +985,7 @@
           <button class="ld-size" onclick="selectSize(this)">XL</button>
           <button class="ld-size" onclick="selectSize(this)">XXL</button>
         </div>
+        <p class="ld-size-help"><svg viewBox="0 0 20 20"><circle cx="10" cy="10" r="8"/><path d="M10 9v5M10 6.5v.01"/></svg>Ragu ukuran? <a href="https://wa.me/6289664388151?text=Halo%20LADELA%2C%20saya%20mau%20tanya%20soal%20ukuran" target="_blank" rel="noopener">Tanya admin</a></p>
       </div>
       <div class="ld-cfg-row">
         <span class="ld-cfg-lbl">Jumlah</span>
@@ -925,6 +1046,7 @@
   <section class="ld-section" id="cerita">
     <div class="wrap ld-story-grid">
       <div class="ld-story-visual reveal" aria-hidden="true">
+        <div class="ld-story-ring r3"></div>
         <div class="ld-story-ring r1"></div>
         <div class="ld-story-ring r2"></div>
         <span class="ld-story-mark">L</span>
@@ -935,6 +1057,11 @@
         <p>LADELA lahir dari ide sederhana: modest wear gak harus mahal atau ribet buat didapat. Setiap desain dijahit dalam batch kecil di Bandung, pakai linen dan katun yang kami pilih sendiri — biar adem dipakai seharian, dari pagi ke pagi lagi.</p>
         <p>Palet earthy tone kami pilih karena satu alasan: warna tanah gak pernah salah dipadu apa pun. Sederhana di mata, nyaman di badan.</p>
         <p class="ld-story-sig">"Designed with intention, worn with ease."</p>
+        <div class="ld-story-facts">
+          <div class="ld-story-fact"><b>Bandung</b><span>Dijahit di sini</span></div>
+          <div class="ld-story-fact"><b>Batch Kecil</b><span>Kontrol kualitas ketat</span></div>
+          <div class="ld-story-fact"><b>S—XXL</b><span>Semua ukuran tersedia</span></div>
+        </div>
       </div>
     </div>
   </section>
@@ -948,6 +1075,8 @@
       </div>
       <div class="ld-testi-grid">
         <div class="ld-testi-card reveal reveal-stagger" style="--i:0">
+          <span class="ld-testi-quotemark" aria-hidden="true">"</span>
+          <span class="ld-corner" aria-hidden="true"></span>
           <div class="ld-testi-stars">
             <svg viewBox="0 0 20 20"><polygon points="10,1 12.6,7 19,7.5 14,12 15.5,18.5 10,15 4.5,18.5 6,12 1,7.5 7.4,7"/></svg>
             <svg viewBox="0 0 20 20"><polygon points="10,1 12.6,7 19,7.5 14,12 15.5,18.5 10,15 4.5,18.5 6,12 1,7.5 7.4,7"/></svg>
@@ -960,6 +1089,8 @@
           <p class="ld-testi-city">Bandung</p>
         </div>
         <div class="ld-testi-card reveal reveal-stagger" style="--i:1">
+          <span class="ld-testi-quotemark" aria-hidden="true">"</span>
+          <span class="ld-corner" aria-hidden="true"></span>
           <div class="ld-testi-stars">
             <svg viewBox="0 0 20 20"><polygon points="10,1 12.6,7 19,7.5 14,12 15.5,18.5 10,15 4.5,18.5 6,12 1,7.5 7.4,7"/></svg>
             <svg viewBox="0 0 20 20"><polygon points="10,1 12.6,7 19,7.5 14,12 15.5,18.5 10,15 4.5,18.5 6,12 1,7.5 7.4,7"/></svg>
@@ -972,6 +1103,8 @@
           <p class="ld-testi-city">Jakarta</p>
         </div>
         <div class="ld-testi-card reveal reveal-stagger" style="--i:2">
+          <span class="ld-testi-quotemark" aria-hidden="true">"</span>
+          <span class="ld-corner" aria-hidden="true"></span>
           <div class="ld-testi-stars">
             <svg viewBox="0 0 20 20"><polygon points="10,1 12.6,7 19,7.5 14,12 15.5,18.5 10,15 4.5,18.5 6,12 1,7.5 7.4,7"/></svg>
             <svg viewBox="0 0 20 20"><polygon points="10,1 12.6,7 19,7.5 14,12 15.5,18.5 10,15 4.5,18.5 6,12 1,7.5 7.4,7"/></svg>
@@ -984,6 +1117,8 @@
           <p class="ld-testi-city">Surabaya</p>
         </div>
         <div class="ld-testi-card reveal reveal-stagger" style="--i:3">
+          <span class="ld-testi-quotemark" aria-hidden="true">"</span>
+          <span class="ld-corner" aria-hidden="true"></span>
           <div class="ld-testi-stars">
             <svg viewBox="0 0 20 20"><polygon points="10,1 12.6,7 19,7.5 14,12 15.5,18.5 10,15 4.5,18.5 6,12 1,7.5 7.4,7"/></svg>
             <svg viewBox="0 0 20 20"><polygon points="10,1 12.6,7 19,7.5 14,12 15.5,18.5 10,15 4.5,18.5 6,12 1,7.5 7.4,7"/></svg>
@@ -1002,16 +1137,19 @@
   <!-- ============ SOCIAL PROOF STATS ============ -->
   <div class="ld-social" id="social-proof">
     <div class="ld-stat">
+      <svg class="ld-stat-icon" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg>
       <div class="ld-stat-num" id="stat-followers">0</div>
       <div class="ld-stat-lbl">Followers IG</div>
     </div>
     <div class="ld-stat-div"></div>
     <div class="ld-stat">
+      <svg class="ld-stat-icon" viewBox="0 0 20 20"><polygon points="10,1 12.6,7 19,7.5 14,12 15.5,18.5 10,15 4.5,18.5 6,12 1,7.5 7.4,7"/></svg>
       <div class="ld-stat-num" id="stat-rating">0</div>
       <div class="ld-stat-lbl">Rating Shopee</div>
     </div>
     <div class="ld-stat-div"></div>
     <div class="ld-stat">
+      <svg class="ld-stat-icon" viewBox="0 0 24 24"><path d="M4 8 L12 4 L20 8 V17 L12 21 L4 17 Z"/><path d="M4 8 L12 12 L20 8"/><path d="M12 12 V21"/></svg>
       <div class="ld-stat-num" id="stat-orders">0</div>
       <div class="ld-stat-lbl">Order terkirim</div>
     </div>
@@ -1025,29 +1163,37 @@
         <h2 class="ld-h2">Masih ada <em>pertanyaan?</em></h2>
       </div>
       <details class="ld-faq-item reveal">
-        <summary>Berapa lama waktu pengiriman?<span class="ld-faq-plus"></span></summary>
+        <summary><span class="ld-faq-num">01</span><span class="ld-faq-q">Berapa lama waktu pengiriman?</span><span class="ld-faq-plus"></span></summary>
         <p>Pesanan diproses dalam 1x24 jam setelah konfirmasi pembayaran, lalu dikirim ke seluruh Indonesia melalui ekspedisi pilihan kamu.</p>
       </details>
       <details class="ld-faq-item reveal">
-        <summary>Apakah bisa COD?<span class="ld-faq-plus"></span></summary>
+        <summary><span class="ld-faq-num">02</span><span class="ld-faq-q">Apakah bisa COD?</span><span class="ld-faq-plus"></span></summary>
         <p>Bisa untuk area tertentu. Konfirmasikan langsung ke admin WhatsApp saat checkout.</p>
       </details>
       <details class="ld-faq-item reveal">
-        <summary>Ukuran gak pas, bisa tukar?<span class="ld-faq-plus"></span></summary>
+        <summary><span class="ld-faq-num">03</span><span class="ld-faq-q">Ukuran gak pas, bisa tukar?</span><span class="ld-faq-plus"></span></summary>
         <p>Bisa, selama tag dan kondisi barang belum dipakai. Hubungi admin maksimal 2x24 jam setelah barang diterima.</p>
       </details>
       <details class="ld-faq-item reveal">
-        <summary>Metode pembayaran apa saja?<span class="ld-faq-plus"></span></summary>
+        <summary><span class="ld-faq-num">04</span><span class="ld-faq-q">Metode pembayaran apa saja?</span><span class="ld-faq-plus"></span></summary>
         <p>Transfer bank, e-wallet, dan QRIS. Detail lengkap dikirim admin setelah kamu checkout via WhatsApp.</p>
       </details>
       <details class="ld-faq-item reveal">
-        <summary>Ini original brand atau reseller?<span class="ld-faq-plus"></span></summary>
+        <summary><span class="ld-faq-num">05</span><span class="ld-faq-q">Ini original brand atau reseller?</span><span class="ld-faq-plus"></span></summary>
         <p>100% brand langsung. Semua produk dijahit dan dikontrol kualitasnya oleh tim LADELA sendiri.</p>
       </details>
       <details class="ld-faq-item reveal">
-        <summary>Bisa request warna atau ukuran khusus?<span class="ld-faq-plus"></span></summary>
+        <summary><span class="ld-faq-num">06</span><span class="ld-faq-q">Bisa request warna atau ukuran khusus?</span><span class="ld-faq-plus"></span></summary>
         <p>Bisa, tulis di kolom catatan saat checkout atau chat admin langsung.</p>
       </details>
+
+      <div class="ld-faq-cta reveal">
+        <p><b>Masih bingung?</b>Admin kami balas chat rata-rata di bawah 1 jam.</p>
+        <a href="https://wa.me/6289664388151?text=Halo%20LADELA%2C%20saya%20mau%20tanya-tanya%20dulu" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24"><path d="M4 20 L5.5 15.5 A8 8 0 1 1 8.5 18.5 Z"/></svg>
+          Chat Admin
+        </a>
+      </div>
     </div>
   </section>
 
@@ -1055,6 +1201,9 @@
 
   <!-- ============ FOOTER ============ -->
   <footer class="ld-footer">
+    <svg class="ld-footer-stitch" viewBox="0 0 1200 4" preserveAspectRatio="none" aria-hidden="true">
+      <line x1="0" y1="2" x2="1200" y2="2" stroke="#C9B99A" stroke-width="1" stroke-dasharray="5 6" opacity=".5"/>
+    </svg>
     <div class="wrap">
       <div class="ld-footer-grid">
         <div>
@@ -1092,13 +1241,19 @@
 
 </div>
 
-<!-- STICKY BAR -->
+<!-- STICKY BAR (mobile) -->
 <div class="ld-sticky-bar" id="sticky-bar">
   <a class="ld-sticky-btn" id="sticky-btn" href="#" target="_blank" rel="noopener" onclick="return checkAndGo(event)">
     Checkout Sekarang!
     <span class="ld-btn-arrow"><svg viewBox="0 0 12 12"><polyline points="3,2 9,6 3,10"/></svg></span>
   </a>
 </div>
+
+<!-- FLOATING WHATSAPP CTA (desktop, appears after scroll) -->
+<a class="ld-float-wa" id="floatWa" href="https://wa.me/6289664388151?text=Halo%20LADELA%2C%20saya%20mau%20tanya" target="_blank" rel="noopener" aria-label="Chat WhatsApp Admin LADELA">
+  <svg viewBox="0 0 24 24"><path d="M4 20 L5.5 15.5 A8 8 0 1 1 8.5 18.5 Z"/></svg>
+  <span>Butuh bantuan?</span>
+</a>
 
 <!-- BACK TO TOP -->
 <button class="ld-top-btn" id="topBtn" aria-label="Kembali ke atas" onclick="window.scrollTo({top:0,behavior:'smooth'})">
@@ -1109,27 +1264,32 @@
   const WA_NUMBER = '6289664388151';
   let selected = null, selectedSize = 'M', qty = 1;
   let selectedColor = '';
-
-  // ── SLIDE STATE ──
   const slideState = {};
 
-  // Single source of truth for a card's slug — used everywhere instead of
-  // re-deriving it ad hoc, so swipe/swatch/select always agree on the same id.
   function getCardId(card) {
     return card.dataset.id || card.dataset.name.toLowerCase().replace(/\s+/g, '-');
   }
 
+  // Complete color map — one entry per product id actually present in the
+  // markup below, in the same left-to-right order as each card's swatches,
+  // so the label, the WhatsApp order summary, and the swatch selection
+  // always agree on the same color name.
   const colorNames = {
-    'cinnamon-ruffle': ['Sand', 'Pure Black'],
+    'cinnamon-ruffle': ['Cinnamon', 'Pure Black'],
     'jeans': ['Light Blue', 'Dark Blue'],
     'urban-jacket': ['Green', 'White', 'Black'],
-    'yukio': ['Sand', 'Warm Tan', 'Clay'],
-    'manggo': ['Warm Ivory', 'Tan', 'Sand']
+    'maira-jacket': ['Black', 'Army', 'Cream'],
+    'arumi-jacket': ['Warm Ivory', 'Army', 'Black'],
+    'chiyo-jacket': ['Green', 'White', 'Black'],
+    'jeju-jacket': ['Cream', 'Army', 'Black'],
+    'manggo': ['Cream', 'Black', 'Stripe Blue'],
+    'hilmi-blouse': ['Sand', 'White', 'Black'],
+    'cindy': ['Light Blue', 'Black'],
+    'chiyo-jacket-2': ['Black', 'White', 'Green'],
+    'jira-blouse': ['White']
   };
 
-  function getSlideIdx(id) {
-    return slideState[id] || 0;
-  }
+  function getSlideIdx(id) { return slideState[id] || 0; }
 
   function setSlide(id, idx, total) {
     idx = (idx + total) % total;
@@ -1151,11 +1311,8 @@
 
   function chooseSwatch(id, idx, e) {
     if (e) e.stopPropagation();
-    // Picking a color is a purchase decision — if this product isn't the
-    // active one yet, select it first so the order flow opens right away.
     const card = document.querySelector('.ld-card[data-id="' + id + '"]');
     if (card && !card.classList.contains('selected')) selectProduct(card);
-
     setSlide(id, idx, document.getElementById('slides-' + id).children.length);
     const swatches = document.getElementById('swatches-' + id);
     if (swatches) Array.from(swatches.children).forEach((sw, i) => sw.classList.toggle('active', i === idx));
@@ -1167,7 +1324,6 @@
   function nextSlide(id, total, e) { e && e.stopPropagation(); setSlide(id, getSlideIdx(id) + 1, total); }
   function prevSlide(id, e) { e && e.stopPropagation(); const total = document.getElementById('slides-' + id).children.length; setSlide(id, getSlideIdx(id) - 1, total); }
 
-  // ── TOUCH SWIPE ──
   let touchStart = null;
   document.querySelectorAll('.ld-thumb').forEach(thumb => {
     thumb.addEventListener('touchstart', e => { touchStart = e.touches[0].clientX; }, { passive: true });
@@ -1184,7 +1340,6 @@
     }, { passive: true });
   });
 
-  // ── PRODUCT SELECTION ──
   function selectProduct(card) {
     document.querySelectorAll('.ld-card').forEach(c => c.classList.remove('selected'));
     card.classList.add('selected');
@@ -1273,7 +1428,6 @@
     return ok;
   }
 
-  // ── COUNTER ANIMATION ──
   const stats = [
     { id: 'stat-followers', target: 472, suffix: 'k+', duration: 1800 },
     { id: 'stat-rating',    target: 98,  suffix: '%',  duration: 1400 },
@@ -1307,7 +1461,6 @@
   }, { threshold: 0.4 });
   statsObserver.observe(socialEl);
 
-  // ── SCROLL REVEAL ──
   const revealObserver = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
@@ -1318,14 +1471,15 @@
   }, { threshold: 0.15 });
   document.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
 
-  // ── NAV: scrolled shadow + mobile menu ──
   const navEl = document.getElementById('nav');
+  const floatWaEl = document.getElementById('floatWa');
   let navTicking = false;
   window.addEventListener('scroll', () => {
     if (!navTicking) {
       requestAnimationFrame(() => {
         navEl.classList.toggle('scrolled', window.scrollY > 8);
         document.getElementById('topBtn').classList.toggle('visible', window.scrollY > 600);
+        floatWaEl.classList.toggle('visible', window.scrollY > 600);
         navTicking = false;
       });
       navTicking = true;
